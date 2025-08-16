@@ -1,12 +1,11 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: 'https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      light: 'https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      light: '/profile_headshot.avif',
       alt: 'My profile picture'
     },
     meetingLink: 'https://cal.com/',
-    email: 'ui-pro@nuxt.com',
+    email: 'kevinmlogan7@gmail.com',
     available: true
   },
   ui: {
@@ -28,25 +27,20 @@ export default defineAppConfig({
     credits: `Copyright © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
-      'icon': 'i-simple-icons-nuxtdotjs',
-      'to': 'https://nuxt.com',
+      'icon': 'i-simple-icons-linkedin',
+      'to': 'https://www.linkedin.com/in/kevinlogan94',
       'target': '_blank',
-      'aria-label': 'Nuxt Website'
-    }, {
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://discord.com/invite/ps2h6QT',
-      'target': '_blank',
-      'aria-label': 'Nuxt UI on Discord'
-    }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://x.com/nuxt_js',
-      'target': '_blank',
-      'aria-label': 'Nuxt on X'
+      'aria-label': 'Kevin Logan on LinkedIn'
     }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+      'to': 'https://github.com/kevinlogan94',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Kevin Logan on GitHub'
+    }, {
+      'icon': 'i-simple-icons-instagram',
+      'to': 'https://www.instagram.com/coding.kevin_',
+      'target': '_blank',
+      'aria-label': 'Kevin Logan on Instagram'
     }]
   }
 })

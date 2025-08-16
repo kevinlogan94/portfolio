@@ -1,0 +1,6 @@
+title: "NaviStone Customer App"
+description: "Built a customer-facing application using VueJS, Cognito, .NET Core & SQL Server. This application provides customers with insights and analytics related to their marketing campaigns."
+image: https://picsum.photos/468/468?random=8
+url: "#"
+tags: ["Full-Stack Development", "VueJS", ".NET Core"]
+date: "2021"

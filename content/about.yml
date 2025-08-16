@@ -1,25 +1,70 @@
 title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+description: Engineering Leader, Mentor, and Developer based in Cincinnati, Ohio. Specializing in scaling engineering teams and delivering high-quality software products.
 content: |
-  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  **Kevin Logan** is an Engineering Leader, Mentor, and Developer living in Cincinnati, Ohio. As a Software Engineering Manager at NaviStone, he has hands-on experience scaling an engineering team from the ground up to four developers. He partners with the CTO on high-level engineering decisions and leads agile processes to ensure the consistent delivery of high-quality products and enhancements. His career is defined by a blend of leadership and technical expertise. He has experience with C#, JavaScript, VueJS, and the OpenAI SDK. He also created the mobile game "Xal's Path" and is interested in connecting with other professionals to discuss innovation and the future of software engineering.
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  ### Contact
 
-  ### My Design Philosophy
+  - **Mobile**: 859-750-2278
+  - **Email**: kevinmlogan7@gmail.com
+  - **LinkedIn**: [linkedin.com/in/kevinlogan94](https://www.linkedin.com/in/kevinlogan94)
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  ### Top Skills
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  - Project Management
+  - Full-Stack Development
+  - Psychology
 
-  ### What Drives Me
+  ### Experience
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  --- 
 
-  ### Beyond the Screen
+  #### NaviStone (5 years 8 months)
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  **Software Engineering Manager** (January 2022 - Present)
+  - Grew the engineering team to four developers by sourcing and hiring talent.
+  - Championed career growth by introducing a formal "Tech Lead" role and mentoring team members.
+  - Partnered with the CTO to guide high-level engineering decisions and owned the architecture for the primary customer-facing platform.
+  - Directed the end-to-end software release process and coached the team on deployment best practices.
+  - Maintained the Scrum board and established documentation standards for release notes.
+  
+  **Senior Software Engineer** (January 2020 - January 2022)
+  - Led frontend architecture, built internal microservices, and developed reusable custom web components.
+  - Built a customer app with VueJS, Cognito, .NET Core & SQL Server.
+  - Improved Clickstream Script by integrating unit tests & a CI/CD pipeline.
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+  #### Self Employed (3 years 8 months)
+
+  **Real Estate Manager** (January 2022 - Present)
+  - Managed all aspects of property management, including rent collection, maintenance, and tenant relations.
+
+  **Intrigue Games, LLC** (January 2021 - December 2022)
+  - Founder & Lead Developer for the mobile game "Xal's Path."
+  - Owned the art, design, and musical direction for the game.
+
+  #### Fifth Third Bank (2 years 7 months)
+
+  **Senior Frontend Developer** (July 2018 - January 2020)
+  - Defined Angular architecture and upgraded a legacy web app using NgUpgrade.
+  - Integrated linters and pre-commit git hooks to enforce code quality.
+
+  **Frontend Developer** (July 2017 - July 2018)
+  - Led a cross-platform team to implement features in a 2-week Scrum Agile sprint cycle.
+
+  #### Hasbro (7 months)
+
+  **Software Engineer** (January 2017 - July 2017)
+  - Scripted and styled full site makeovers for brand websites and won a 24-hour coding marathon.
+
+  ### Education
+
+  **University of Kentucky** (2012-2016)
+  - Bachelors in Computer Science
+  - Minor in Mathematics
+
+  ### Certifications
+
+  - CSS Fundamentals
 images:
   - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     alt: My coffee workspace

@@ -1,11 +1,11 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "Kevin Logan - Engineering Leader"
+  description: "Welcome to my portfolio! I'm Kevin Logan, an Engineering Leader, Mentor, and Developer based in Cincinnati, Ohio. I specialize in scaling engineering teams and delivering high-quality software products."
+title: "Hey, I'm Kevin Logan, Engineering Leader"
+description: "I build and lead high-performing engineering teams to deliver exceptional software. Based in Cincinnati, bringing ideas to life through leadership and code."
 hero:
   links:
-    - label: "Use this template"
+    - label: "Contact Me"
       to: https://github.com/nuxt-ui-pro/portfolio
       color: "neutral"
   images:
@@ -30,91 +30,88 @@ hero:
 about:
   title: "About Me"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    Engineering Manager with over 9 years of experience spanning frontend architecture (VueJS, TypeScript) and
+    full-stack C#/.NET development. Proven ability to build and lead high-performing teams, deliver complex
+    customer-facing products, and spearhead new initiatives in AI and agentic systems.
 experience:
   title: Work Experience
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Engineering Manager at"
+      date: "2020 - Present"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+        name: NaviStone
+        logo: "i-simple-icons-navistone"
+        url: "https://navistone.com"
+        color: "#e6832d"
+    - position: "Senior Frontend Developer at"
+      date: "2017 - 2020"
       company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+        name: Fifth Third Bank
+        logo: "i-simple-icons-fifththird"
+        url: "https://fifththird.com"
+        color: "#00449E"
+    - position: "Software Engineer at"
+      date: "2017"
       company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
-        color: "#5E6AD2"
+        name: Hasbro
+        logo: "i-simple-icons-hasbro"
+        url: "https://hasbro.com"
+        color: "#0077C8"
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  - quote: "Kevin is one of the best team leaders Ive had the chance to work with. He naturally keeps all around him motivated and productive. He has deep technical knowledge that he constantly refines and continues to extend. He is absolutely one of the best and most intelligent people I have interacted with during my career."
     author:
-      name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
+      name: 'Zachary Matthews'
+      description: 'Software Engineer at NaviStone'
       avatar:
-        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+        src: 'https://media.licdn.com/dms/image/v2/D5603AQGlALi8KffUYQ/profile-displayphoto-shrink_100_100/B56ZWLsCZPGsAU-/0/1741805332906?e=1758153600&v=beta&t=vKiYfZXYnUiZjGuSyIrC5u81Cols3jPnYXA4ryGS_fc'
+        srcset: 'https://media.licdn.com/dms/image/v2/D5603AQGlALi8KffUYQ/profile-displayphoto-shrink_100_100/B56ZWLsCZPGsAU-/0/1741805332906?e=1758153600&v=beta&t=vKiYfZXYnUiZjGuSyIrC5u81Cols3jPnYXA4ryGS_fc 2x'
+  - quote: "I had the pleasure of working alongside Kevin Logan as a software engineer at Cardinal Solutions, where we collaborated on Angular development projects for Fifth Third Bank. Kevin consistently demonstrated a strong work ethic, delivering high-quality code that met client needs. His reliability and dedication made him a valuable team member, always ready to tackle challenges and ensure project success. Beyond his technical skills, Kevin’s positive attitude and approachable nature fostered a great team environment. I highly recommend Kevin for any role where dependable, skilled, and collaborative software engineering is needed."
     author:
-      name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
+      name: 'Travis Mikolay'
+      description: 'UX/UI Specialist'
       avatar:
-        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+        src: 'https://media.licdn.com/dms/image/v2/D5603AQGlALi8KffUYQ/profile-displayphoto-shrink_100_100/B56ZWLsCZPGsAU-/0/1741805332906?e=1758153600&v=beta&t=vKiYfZXYnUiZjGuSyIrC5u81Cols3jPnYXA4ryGS_fc'
+        srcset: 'https://media.licdn.com/dms/image/v2/D5603AQGlALi8KffUYQ/profile-displayphoto-shrink_100_100/B56ZWLsCZPGsAU-/0/1741805332906?e=1758153600&v=beta&t=vKiYfZXYnUiZjGuSyIrC5u81Cols3jPnYXA4ryGS_fc 2x'
   - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
     author:
-      name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
+      name: 'Larry Kavanaugh'
+      description: 'CEO at NaviStone'
       avatar:
-        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+        src: 'https://media.licdn.com/dms/image/v2/D5603AQGlALi8KffUYQ/profile-displayphoto-shrink_100_100/B56ZWLsCZPGsAU-/0/1741805332906?e=1758153600&v=beta&t=vKiYfZXYnUiZjGuSyIrC5u81Cols3jPnYXA4ryGS_fc'
+        srcset: 'https://media.licdn.com/dms/image/v2/D5603AQGlALi8KffUYQ/profile-displayphoto-shrink_100_100/B56ZWLsCZPGsAU-/0/1741805332906?e=1758153600&v=beta&t=vKiYfZXYnUiZjGuSyIrC5u81Cols3jPnYXA4ryGS_fc 2x'
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
 faq:
   title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  description: A little more about how I work and what I value.
   categories:
-    - title: Services & Process
+    - title: Leadership & Philosophy
       questions:
-        - label: What services do you offer?
+        - label: What is your leadership philosophy?
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            I believe in servant leadership. My primary goal is to empower engineers by fostering a culture of ownership, transparency, and continuous learning. I focus on removing obstacles and providing the support and resources my team needs to do their best work, ensuring they are aligned with our strategic goals.
+        - label: How do you approach technical debt?
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+            I view technical debt as a strategic tool—sometimes necessary to achieve business objectives, but it must be managed proactively. I advocate for a balanced approach, dedicating regular time to refactoring and improving our codebase to ensure long-term velocity and system health.
+        - label: What role does mentorship play on your teams?
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+            Mentorship is fundamental to a team's growth. I encourage a culture where knowledge-sharing is constant, with senior engineers guiding junior members through code reviews, pair programming, and dedicated mentoring. Investing in every team member's development elevates the entire team.
+
+    - title: Team & Culture
       questions:
-        - label: How much does a project typically cost?
+        - label: What do you look for when building a team?
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            Beyond technical skills, I look for curiosity, a collaborative spirit, and a strong sense of ownership. I value engineers who are passionate about learning, can communicate their ideas effectively, and are motivated to build the right solutions for our users. A growth mindset is key.
+        - label: How do you foster a positive and inclusive team culture?
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
-          content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
-          content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
+            By building a foundation of psychological safety, where everyone feels comfortable sharing ideas and feedback without judgment. I actively promote diverse perspectives, ensure our processes are fair and transparent, and make a point to celebrate both individual and team successes.
+
     - title: About Me
       questions:
         - label: What do you enjoy most about your work?
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
+            I love solving complex problems, both technical and human. It's incredibly rewarding to see a team overcome challenges and deliver a product that has a real impact. Guiding a team to that point of success is what truly excites me.
         - label: What are your hobbies outside of work?
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            When I'm not working, I enjoy exploring new technologies, contributing to open-source projects, and spending time with my family. I'm also an avid reader of all things sci-fi.
