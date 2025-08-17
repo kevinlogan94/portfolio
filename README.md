@@ -1,59 +1,50 @@
-# Nuxt Portfolio Template
+# Kevin Logan's Portfolio
 
-[![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com/pro)
-[![Deploy to NuxtHub](https://img.shields.io/badge/Deploy%20to-NuxtHub-00DC82?logo=nuxt&labelColor=020420)](https://hub.nuxt.com/new?repo=nuxt-ui-pro/portfolio)
+This repository contains the source code for my personal portfolio website, built with [Nuxt](https://nuxt.com/) and [Nuxt UI Pro](https://ui.nuxt.com/pro).
 
-Use this template to create your own portfolio with [Nuxt UI Pro](https://ui.nuxt.com/pro).
+The site showcases my professional experience, projects, and skills as a software engineering leader.
 
-- [Live demo](https://portfolio-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/getting-started/installation/pro/nuxt)
+## About Me
 
-<a href="https://portfolio-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3BvcnRmb2xpby10ZW1wbGF0ZS5udXh0LmRldiIsImlhdCI6MTc0NTkzNDczMX0.XDWnQoyVy3XVtKQD6PLQ8RFUwr4yr1QnVwPxRrjCrro.jpg?theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3BvcnRmb2xpby10ZW1wbGF0ZS5udXh0LmRldiIsImlhdCI6MTc0NTkzNDczMX0.XDWnQoyVy3XVtKQD6PLQ8RFUwr4yr1QnVwPxRrjCrro.jpg?theme=light">
-    <img alt="Nuxt Portfolio Template" src="https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3BvcnRmb2xpby10ZW1wbGF0ZS5udXh0LmRldiIsImlhdCI6MTc0NTkzNDczMX0.XDWnQoyVy3XVtKQD6PLQ8RFUwr4yr1QnVwPxRrjCrro.jpg">
-  </picture>
-</a>
+I am an Engineering Leader, Mentor, and Developer based in Cincinnati, Ohio. I specialize in scaling engineering teams and delivering high-quality software products. My experience spans C#, JavaScript, VueJS, and the OpenAI SDK.
 
-## Quick Start
+## Tech Stack
 
-```bash [Terminal]
-npx nuxi init -t github:nuxt-ui-pro/portfolio
-```
+- **Framework**: [Nuxt](https://nuxt.com/)
+- **UI**: [Nuxt UI Pro](https://ui.nuxt.com/pro)
+- **Content**: [Nuxt Content](https://content.nuxt.com/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 
-## Setup
+## Development
 
-Make sure to install the dependencies:
+To run this project locally:
 
-```bash
-pnpm install
-```
+1. **Install dependencies**
 
-## Development Server
+   ```bash
+   pnpm install
+   ```
 
-Start the development server on `http://localhost:3000`:
+2. **Start the development server**
 
-```bash
-pnpm dev
-```
+   ```bash
+   pnpm dev
+   ```
+
+   The application will be available at `http://localhost:3000`.
 
 ## Production
 
-Build the application for production:
+To build the application for production:
 
 ```bash
 pnpm build
 ```
 
-Locally preview production build:
+To preview the production build locally:
 
 ```bash
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-## Renovate integration
-
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+Check out the [Nuxt deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
