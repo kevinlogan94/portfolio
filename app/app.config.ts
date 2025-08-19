@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      light: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/profile%2Fprofile_headshot_.jpg?alt=media&token=2665e26c-8ab7-4de0-9da9-14e487cfb9f4',
-      dark: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/profile%2Fprofile_headshot_.jpg?alt=media&token=2665e26c-8ab7-4de0-9da9-14e487cfb9f4',
+      light: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/profile%2Fprofile_headshot_avif.avif?alt=media&token=89549823-b45b-4a6f-8dc4-c106aaacdf24',
+      dark: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/profile%2Fprofile_headshot_avif.avif?alt=media&token=89549823-b45b-4a6f-8dc4-c106aaacdf24',
       alt: 'My profile picture'
     },
     meetingLink: 'https://cal.com/',
