@@ -33,12 +33,11 @@ useSeoMeta({
         links: 'justify-start'
       }"
     >
-      <UColorModeAvatar
-        class="sm:rotate-4 size-36 rounded-lg ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
-        :light="global.picture?.light!"
-        :dark="global.picture?.dark!"
+      <img
+        class="sm:rotate-4 w-50 h-44 rounded-lg ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
+        :src="global.picture?.light!"
         :alt="global.picture?.alt!"
-      />
+      >
     </UPageHero>
     <UPageSection
       :ui="{
