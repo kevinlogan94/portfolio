@@ -34,7 +34,7 @@ useSeoMeta({
       }"
     >
       <img
-        class="sm:rotate-4 w-50 h-44 rounded-lg ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
+        class="sm:rotate-4 w-48 h-51 rounded-lg ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
         :src="global.picture?.light!"
         :alt="global.picture?.alt!"
       >
