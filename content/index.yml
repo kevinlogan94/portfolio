@@ -34,14 +34,14 @@ about:
 experience:
   title: Work Experience
   items:
-    - position: "Engineering Manager at"
+    - position: "Eng. Manager at"
       date: "2020 - Present"
       company:
         name: NaviStone
         logo: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/workHistoryLogos%2FNaviStone.png?alt=media&token=e7cff2d4-d079-47ba-bc80-6a5eafe59d7e"
         url: "https://navistone.com"
         color: "#e6832d"
-    - position: "Senior Frontend Developer at"
+    - position: "Senior Developer at"
       date: "2017 - 2020"
       company:
         name: Fifth Third
