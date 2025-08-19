@@ -18,9 +18,9 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt Portfolio Template',
-  ogImage: 'https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3BvcnRmb2xpby10ZW1wbGF0ZS5udXh0LmRldiIsImlhdCI6MTc0NTkzNDczMX0.XDWnQoyVy3XVtKQD6PLQ8RFUwr4yr1QnVwPxRrjCrro.jpg?theme=light',
-  twitterImage: 'https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3BvcnRmb2xpby10ZW1wbGF0ZS5udXh0LmRldiIsImlhdCI6MTc0NTkzNDczMX0.XDWnQoyVy3XVtKQD6PLQ8RFUwr4yr1QnVwPxRrjCrro.jpg?theme=light',
+  titleTemplate: '%',
+  ogImage: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/ogImage.png?alt=media&token=40785588-2d86-478d-91b7-a4b89a20f511',
+  twitterImage: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/ogImage.png?alt=media&token=40785588-2d86-478d-91b7-a4b89a20f511',
   twitterCard: 'summary_large_image'
 })
 
