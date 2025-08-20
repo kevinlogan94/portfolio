@@ -1,72 +1,25 @@
 title: About Me
-description: Engineering Leader, Mentor, and Developer based in Cincinnati, Ohio. Specializing in scaling engineering teams and delivering high-quality software products.
+description: Learn more about my journey as an **Engineering Leader**, my approach to building impactful technology, and my passion for helping people grow while solving challenging problems.
 content: |
-  **Kevin Logan** is an Engineering Leader, Mentor, and Developer living in Cincinnati, Ohio. As a Software Engineering Manager at NaviStone, he has hands-on experience scaling an engineering team from the ground up to four developers. He partners with the CTO on high-level engineering decisions and leads agile processes to ensure the consistent delivery of high-quality products and enhancements. His career is defined by a blend of leadership and technical expertise. He has experience with C#, JavaScript, VueJS, and the OpenAI SDK. He also created the mobile game "Xal's Path" and is interested in connecting with other professionals to discuss innovation and the future of software engineering.
+  Hi, I'm **Kevin Logan**, an Engineering Leader and developer based in Cincinnati, OH. Over the past several years, I've led engineering teams, designed scalable backend architectures, and shipped systems that power customer-facing platforms. At NaviStone, I partnered with the CTO to define technical strategy, scale the team from the ground up, and mentor engineers into leadership roles. My career has spanned everything from microservices and front-end frameworks to AI integrations, and I thrive at the intersection of technical execution and team growth.  
 
-  ### Contact
+  ## My Engineering Philosophy  
 
-  - **Mobile**: 859-750-2278
-  - **Email**: kevinmlogan7@gmail.com
-  - **LinkedIn**: [linkedin.com/in/kevinlogan94](https://www.linkedin.com/in/kevinlogan94)
+  I believe the best engineering combines clarity, simplicity, and foresight. My focus is on breaking down complexity into clean, scalable solutions while ensuring the people around me have the tools and guidance they need to succeed. Whether I'm architecting a system, building a feature, or mentoring a developer, my goal is always to deliver results that are impactful and sustainable.  
 
-  ### Top Skills
+  ## What Drives Me  
 
-  - Project Management
-  - Full-Stack Development
-  - Psychology
+  What excites me most about this field is the mix of problem-solving and people. I love collaborating with others to turn big ideas into practical solutions, and I find it incredibly rewarding to see teammates grow and overcome their own limits. I also have a deep passion for learning and enjoy exploring new technologies that keep me sharp and forward-thinking.  
 
-  ### Experience
+  ## Beyond the Screen  
 
-  --- 
+  Outside of work, I enjoy improv, weightlifting, exploring anime and manga, and diving into movies — especially Lord of the Rings and The Dark Knight Trilogy. I also manage a small real estate business, owning and operating a duplex, which has taught me a lot about balancing responsibility, relationships, and long-term investment. I like experimenting with men's fashion and personal style, and I make time to connect with friends and family through travel, game nights, or simply catching up.
 
-  #### NaviStone (5 years 8 months)
+  **Thanks for stopping by!**  
+  Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate.  
 
-  **Software Engineering Manager** (January 2022 - Present)
-  - Grew the engineering team to four developers by sourcing and hiring talent.
-  - Championed career growth by introducing a formal "Tech Lead" role and mentoring team members.
-  - Partnered with the CTO to guide high-level engineering decisions and owned the architecture for the primary customer-facing platform.
-  - Directed the end-to-end software release process and coached the team on deployment best practices.
-  - Maintained the Scrum board and established documentation standards for release notes.
-  
-  **Senior Software Engineer** (January 2020 - January 2022)
-  - Led frontend architecture, built internal microservices, and developed reusable custom web components.
-  - Built a customer app with VueJS, Cognito, .NET Core & SQL Server.
-  - Improved Clickstream Script by integrating unit tests & a CI/CD pipeline.
-
-  #### Self Employed (3 years 8 months)
-
-  **Real Estate Manager** (January 2022 - Present)
-  - Managed all aspects of property management, including rent collection, maintenance, and tenant relations.
-
-  **Intrigue Games, LLC** (January 2021 - December 2022)
-  - Founder & Lead Developer for the mobile game "Xal's Path."
-  - Owned the art, design, and musical direction for the game.
-
-  #### Fifth Third Bank (2 years 7 months)
-
-  **Senior Frontend Developer** (July 2018 - January 2020)
-  - Defined Angular architecture and upgraded a legacy web app using NgUpgrade.
-  - Integrated linters and pre-commit git hooks to enforce code quality.
-
-  **Frontend Developer** (July 2017 - July 2018)
-  - Led a cross-platform team to implement features in a 2-week Scrum Agile sprint cycle.
-
-  #### Hasbro (7 months)
-
-  **Software Engineer** (January 2017 - July 2017)
-  - Scripted and styled full site makeovers for brand websites and won a 24-hour coding marathon.
-
-  ### Education
-
-  **University of Kentucky** (2012-2016)
-  - Bachelors in Computer Science
-  - Minor in Mathematics
-
-  ### Certifications
-
-  - CSS Fundamentals
 images:
-  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
-  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+  - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/about%2Fgrinch.jpg?alt=media&token=5463ca59-5844-4d7e-a92c-1dd3a281836f
+    alt: Performing Improv as the Grinch
+  - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/about%2FnewZealand.jpg?alt=media&token=90cfd75a-cc47-4a1d-a850-db96e30bb3b7
+    alt: My trip to New Zealand
