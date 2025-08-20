@@ -18,7 +18,7 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%',
+  titleTemplate: '%s - Kevin Logan',
   ogImage: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/ogImage.png?alt=media&token=40785588-2d86-478d-91b7-a4b89a20f511',
   twitterImage: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/ogImage.png?alt=media&token=40785588-2d86-478d-91b7-a4b89a20f511',
   twitterCard: 'summary_large_image'
