@@ -1,0 +1,6 @@
+title: "Facebook Birthday Automator"
+description: "Prototype automation script using Python and PyAutoGUI to wish Facebook friends a happy birthday automatically."
+image: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/projects%2FfacebookBirthdayAutomatorCover.png?alt=media&token=da006858-3b57-44d8-bdb8-eeff6dfcaf8a"
+url: "https://github.com/kevinlogan94/facebook-happy-birthday"
+tags: ["Automation", "Python", "PyAutoGUI"]
+date: "2019"
