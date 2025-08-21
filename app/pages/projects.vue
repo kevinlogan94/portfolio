@@ -14,6 +14,23 @@ const { data: projects } = await useAsyncData('projects', () => {
   return queryCollection('projects').all()
 })
 
+// Extract a numeric year for sorting (handles strings like "2025" or "2020 - Present")
+function extractYear(date: unknown): number {
+  if (typeof date === 'string') {
+    const m = date.trim().match(/^(\d{4})/)
+    if (m) return Number(m[1])
+    const d = new Date(date)
+    if (!isNaN(d.getTime())) return d.getFullYear()
+    return 0
+  }
+  if (date instanceof Date && !isNaN(date.getTime())) return date.getFullYear()
+  return 0
+}
+
+const sortedProjects = computed(() => {
+  return (projects.value || []).slice().sort((a: any, b: any) => extractYear(b.date) - extractYear(a.date))
+})
+
 const { global } = useAppConfig()
 
 useSeoMeta({
@@ -59,7 +76,7 @@ useSeoMeta({
       }"
     >
       <Motion
-        v-for="(project, index) in projects"
+        v-for="(project, index) in sortedProjects"
         :key="project.title"
         :initial="{ opacity: 0, transform: 'translateY(10px)' }"
         :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
@@ -69,7 +86,7 @@ useSeoMeta({
         <UPageCard
           :title="project.title"
           :description="project.description"
-          :to="project.url"
+          :to="project.url || undefined"
           orientation="horizontal"
           variant="naked"
           :reverse="index % 2 === 1"
@@ -80,11 +97,12 @@ useSeoMeta({
         >
           <template #leading>
             <span class="text-sm text-muted">
-              {{ new Date(project.date).getFullYear() }}
+              {{ extractYear(project.date) }}
             </span>
           </template>
           <template #footer>
             <ULink
+              v-if="project.url"
               :to="project.url"
               class="text-sm text-primary flex items-center"
             >
