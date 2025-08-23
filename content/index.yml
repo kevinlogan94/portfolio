@@ -56,20 +56,34 @@ experience:
         url: "https://hasbro.com"
         color: "#0077C8"
 testimonials:
-  - quote: "Kevin is one of the best team leaders Ive had the chance to work with. He naturally keeps all around him motivated and productive. He has deep technical knowledge that he constantly refines and continues to extend. He is absolutely one of the best and most intelligent people I have interacted with during my career."
+  - quote: "He cares deeply about producing great outcomes for the people using his software and for the people he works with. Even better, he produces great outcomes for both."
+    author:
+      name: 'Larry Kavanagh'
+      description: 'CEO at NaviStone'
+      avatar:
+        src: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FlarryKavanagh.jpg?alt=media&token=8884b09e-6acf-406c-aad9-5dd944028044'
+        srcset: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FlarryKavanagh.jpg?alt=media&token=8884b09e-6acf-406c-aad9-5dd944028044 2x'
+  - quote: "He pairs deep technical knowledge with steady leadership and mentorship. He builds processes that actually help teams work better and writes code that solves real problems."
+    author:
+      name: 'Tom White'
+      description: 'Former CTO at NaviStone'
+      avatar:
+        src: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FtomWhite.jpg?alt=media&token=782b95fa-5f68-4e60-9d55-c054bcca1792'
+        srcset: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FtomWhite.jpg?alt=media&token=782b95fa-5f68-4e60-9d55-c054bcca1792 2x'
+  - quote: "He is absolutely one of the best and most intelligent people I have interacted with during my career."
     author:
       name: 'Zachary Matthews'
       description: 'Software Engineer at NaviStone'
       avatar:
-        src: 'https://media.licdn.com/dms/image/v2/D5603AQGlALi8KffUYQ/profile-displayphoto-shrink_100_100/B56ZWLsCZPGsAU-/0/1741805332906?e=1758153600&v=beta&t=vKiYfZXYnUiZjGuSyIrC5u81Cols3jPnYXA4ryGS_fc'
-        srcset: 'https://media.licdn.com/dms/image/v2/D5603AQGlALi8KffUYQ/profile-displayphoto-shrink_100_100/B56ZWLsCZPGsAU-/0/1741805332906?e=1758153600&v=beta&t=vKiYfZXYnUiZjGuSyIrC5u81Cols3jPnYXA4ryGS_fc 2x'
-  - quote: "I had the pleasure of working alongside Kevin Logan as a software engineer at Cardinal Solutions, where we collaborated on Angular development projects for Fifth Third Bank. Kevin consistently demonstrated a strong work ethic, delivering high-quality code that met client needs. His reliability and dedication made him a valuable team member, always ready to tackle challenges and ensure project success. Beyond his technical skills, Kevin’s positive attitude and approachable nature fostered a great team environment. I highly recommend Kevin for any role where dependable, skilled, and collaborative software engineering is needed."
+        src: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FzacharyMatthews.jpg?alt=media&token=57a6f7d7-49be-48b0-97ab-12ea87449067'
+        srcset: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FzacharyMatthews.jpg?alt=media&token=57a6f7d7-49be-48b0-97ab-12ea87449067 2x'
+  - quote: "Beyond his technical skills, Kevin's positive attitude and approachable nature fostered a great team environment."
     author:
       name: 'Travis Mikolay'
       description: 'UX/UI Specialist'
       avatar:
-        src: 'https://media.licdn.com/dms/image/v2/C4E03AQGSoH-puwkViA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1610662860950?e=1758153600&v=beta&t=r0Sbf0PPKLnWI8Vkcc1ylHC94FTq4aYyzQN-DZto6e0'
-        srcset: 'https://media.licdn.com/dms/image/v2/C4E03AQGSoH-puwkViA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1610662860950?e=1758153600&v=beta&t=r0Sbf0PPKLnWI8Vkcc1ylHC94FTq4aYyzQN-DZto6e0 2x'
+        src: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FtravisMikolay.jpg?alt=media&token=393991e5-2175-440e-81a7-494f696af23a'
+        srcset: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FtravisMikolay.jpg?alt=media&token=393991e5-2175-440e-81a7-494f696af23a 2x'
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
