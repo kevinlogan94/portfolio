@@ -1,0 +1,4 @@
+[images]
+  remote_images = [
+    "https://firebasestorage.googleapis.com/.*"
+  ]
