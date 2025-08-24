@@ -28,9 +28,9 @@ hero:
 about:
   title: "About Me"
   description: |
-    Engineering Manager with over 9 years of experience spanning frontend architecture (VueJS, TypeScript) and
-    full-stack C#/.NET development. Proven ability to build and lead high-performing teams, deliver complex
-    customer-facing products, and spearhead new initiatives in AI and agentic systems.
+    Engineering Manager with over 9 years of experience spanning full-stack development and engineering leadership. 
+    Proven ability to build and scale teams, deliver customer-facing platforms from concept to launch, and drive 
+    innovation in emerging technologies.
 experience:
   title: Work Experience
   items:
