@@ -1,8 +1,8 @@
 seo:
-  title: "Engineering Leader"
-  description: "Welcome to my portfolio! I'm Kevin Logan, an Engineering Leader, Mentor, and Developer based in Cincinnati, Ohio. I specialize in scaling engineering teams and delivering high-quality software products."
-title: "Hey, I'm Kevin Logan, Engineering Leader"
-description: "I build and lead high-performing engineering teams to deliver exceptional software. Based in Cincinnati, bringing ideas to life through leadership and code."
+  title: "Tech Lead · Senior Full-Stack Engineer"
+  description: "Hands-on tech lead and senior full‑stack engineer building scalable systems and customer platforms. I design, ship, and mentor — aligning technical solutions with business goals. Preparing to relocate."
+title: "Hey, I'm Kevin Logan — Tech Lead & Senior Full‑Stack Engineer"
+description: "I design and ship scalable systems, lead through architecture and code, and mentor engineers. Based in Cincinnati, preparing to relocate."
 hero:
   links:
     - label: "Contact Me"
@@ -28,9 +28,9 @@ hero:
 about:
   title: "About Me"
   description: |
-    Engineering Manager with over 8 years of experience spanning full-stack development and engineering leadership. 
-    Proven ability to build and scale teams, deliver customer-facing platforms from concept to launch, and drive 
-    innovation in emerging technologies.
+    Full-stack engineer and tech lead with 8+ years of experience building customer-facing platforms from concept to launch. 
+    I combine leadership and hands-on development to design scalable systems, mentor engineers, and align technical solutions 
+    with business goals. Actively preparing to relocate.
 experience:
   title: Work Experience
   items:
