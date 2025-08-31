@@ -1,7 +1,7 @@
 seo:
   title: "Tech Lead · Senior Full-Stack Engineer"
-  description: "Hands-on tech lead and senior full‑stack engineer building scalable systems and customer platforms. I design, ship, and mentor — aligning technical solutions with business goals. Preparing to relocate."
-title: "Hey, I'm Kevin Logan — Tech Lead & Senior Full‑Stack Engineer"
+  description: "Hands-on tech lead and full‑stack engineer building scalable systems and customer platforms. I design, ship, and mentor — aligning technical solutions with business goals. Preparing to relocate."
+title: "Hey, I'm Kevin Logan — Tech Lead & Full‑Stack Engineer"
 description: "I design and ship scalable systems, lead through architecture and code, and mentor engineers. Based in Cincinnati, preparing to relocate."
 hero:
   links:
@@ -28,9 +28,9 @@ hero:
 about:
   title: "About Me"
   description: |
-    Full-stack engineer and tech lead with 8+ years of experience building customer-facing platforms from concept to launch. 
-    I combine leadership and hands-on development to design scalable systems, mentor engineers, and align technical solutions 
-    with business goals. Actively preparing to relocate.
+    Tech lead and Full-stack engineer with 8+ years of experience building customer-facing platforms from
+    concept to launch. I combine leadership and hands-on development to design scalable systems, mentor
+    engineers, and align technical solutions with business goals. Actively preparing to relocate.
 experience:
   title: Work Experience
   items:
