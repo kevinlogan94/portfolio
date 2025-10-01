@@ -6,7 +6,7 @@ The site showcases my professional experience, projects, and skills as a softwar
 
 ## About Me
 
-I am an Engineering Leader, Mentor, and Developer based in Cincinnati, Ohio. I specialize in scaling engineering teams and delivering high-quality software products. My experience spans C#, JavaScript, VueJS, and the OpenAI SDK.
+Full-stack engineer with 8 years of experience designing and launching scalable web and cloud apps in C#, VueJS, and TypeScript, and adaptable to new technologies. Committed to delivering clean, maintainable code and thorough documentation. I prioritize impact, driving results for teams and users.
 
 ## Tech Stack
 

@@ -1,7 +1,7 @@
 seo:
-  title: "Engineering Leader"
-  description: "Hands-on engineering leader building scalable systems and customer platforms. I design, ship, and mentor — aligning technical solutions with business goals. Preparing to relocate."
-title: "Hey, I'm Kevin Logan — Engineering Leader"
+  title: "Full-Stack Developer"
+  description: "Full-stack engineer with 8 years of experience designing and launching scalable web and cloud apps in C#, VueJS, and TypeScript, and adaptable to new technologies. Committed to delivering clean, maintainable code and thorough documentation. I prioritize impact, driving results for teams and users."
+title: "Hey, I'm Kevin Logan — Full-Stack Developer"
 description: "I design and ship scalable systems, lead through architecture and code, and mentor engineers. Based in Cincinnati, preparing to relocate."
 hero:
   links:
@@ -28,9 +28,8 @@ hero:
 about:
   title: "About Me"
   description: |
-    Engineering leader with 8+ years of experience building customer-facing platforms from
-    concept to launch. I combine leadership and hands-on development to design scalable systems, mentor
-    engineers, and align technical solutions with business goals. Actively preparing to relocate.
+    Full-stack engineer with 8 years of experience designing and launching scalable web and cloud apps in C#, VueJS, and TypeScript, and adaptable to new technologies. 
+    Committed to delivering clean, maintainable code and thorough documentation. I prioritize impact, driving results for teams and users.
 experience:
   title: Work Experience
   items:
