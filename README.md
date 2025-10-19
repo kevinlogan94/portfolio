@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio website, built with [Nuxt](https://nuxt.com/) and [Nuxt UI Pro](https://ui.nuxt.com/pro).
 
-The site showcases my professional experience, projects, and skills as a Staff Full-Stack Engineer.
+The site showcases my professional experience, projects, and skills as a Senior Full-Stack Engineer.
 
 ## About Me
 
