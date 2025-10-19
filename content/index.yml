@@ -1,8 +1,8 @@
 seo:
-  title: "Full-Stack Developer"
-  description: "Full-stack engineer with 8 years of experience designing and launching scalable web and cloud apps in C#, VueJS, and TypeScript, and adaptable to new technologies. Committed to delivering clean, maintainable code and thorough documentation. I prioritize impact, driving results for teams and users."
-title: "Hey, I'm Kevin Logan — Full-Stack Developer"
-description: "I design and ship scalable systems, lead through architecture and code, and mentor engineers. Based in Cincinnati, preparing to relocate."
+  title: "Staff Full-Stack Engineer"
+  description: "Full-stack engineer and tech lead with 8+ years of experience in C#, VueJS, and TypeScript, specializing in scalable web and cloud applications. Expert in AI, microservices, and engineering leadership, with a track record of delivering high-impact platforms and mentoring engineers. Committed to clean, maintainable code and thorough documentation."
+title: "Hey, I'm Kevin Logan — Staff Full-Stack Engineer"
+description: "I design and ship scalable systems, lead through architecture and code, and mentor engineers."
 hero:
   links:
     - label: "Contact Me"
@@ -28,27 +28,27 @@ hero:
 about:
   title: "About Me"
   description: |
-    Full-stack engineer with 8 years of experience designing and launching scalable web and cloud apps in C#, VueJS, and TypeScript, and adaptable to new technologies. 
-    Committed to delivering clean, maintainable code and thorough documentation. I prioritize impact, driving results for teams and users.
+    Full-stack engineer and tech lead with 8+ years of experience in C#, VueJS, and TypeScript, specializing in scalable web and cloud applications. Expert in AI, microservices, and engineering leadership, with a track record of delivering high-impact platforms and mentoring engineers. 
+    Committed to clean, maintainable code and thorough documentation. I prioritize impact, driving results for teams and users.
 experience:
   title: Work Experience
   items:
-    - position: "Eng. Manager at"
-      date: "2020 - Present"
+    - position: "Senior Engineer at"
+      date: "3/2020 - Present"
       company:
         name: NaviStone
         logo: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/workHistoryLogos%2FNaviStone.png?alt=media&token=e7cff2d4-d079-47ba-bc80-6a5eafe59d7e"
         url: "https://navistone.com"
         color: "#e6832d"
-    - position: "Senior Developer at"
-      date: "2017 - 2020"
+    - position: "Senior Engineer at"
+      date: "1/2017 - 3/2020"
       company:
         name: Fifth Third
         logo: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/workHistoryLogos%2FFifthThird.png?alt=media&token=597d6238-09a6-4b13-a6af-6862912edb4c"
         url: "https://fifththird.com"
         color: "#00449E"
     - position: "Software Engineer at"
-      date: "2017"
+      date: "8/2016 - 1/2017"
       company:
         name: Hasbro
         logo: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/workHistoryLogos%2FHasbro.png?alt=media&token=f155f88c-ddb9-4ef6-a922-76e605f784e4"
