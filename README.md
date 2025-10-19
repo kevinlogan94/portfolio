@@ -6,7 +6,7 @@ The site showcases my professional experience, projects, and skills as a Senior 
 
 ## About Me
 
-Full-stack engineer and tech lead with 8+ years of experience in C#, VueJS, and TypeScript, specializing in scalable web and cloud applications. Expert in AI, microservices, and engineering leadership, with a track record of delivering high-impact platforms and mentoring engineers. Committed to clean, maintainable code and thorough documentation. I prioritize impact, driving results for teams and users.
+Senior Full-Stack Engineer and technical leader with 8 years of experience scaling systems, mentoring engineers, and launching platforms from the ground up. Known for blending backend depth with frontend intuition, and bringing engineering orgs into modern, developer-friendly ecosystems. Combines enterprise-grade engineering rigor with product-led thinking, having launched both internal platforms and consumer-facing apps across startups and established tech. Passionate about building durable systems, elevating engineering culture, and shaping the next generation of technical leadership.
 
 ## Tech Stack
 
