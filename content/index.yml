@@ -33,14 +33,14 @@ experience:
   title: Work Experience
   items:
     - position: "Engineering Lead at"
-      date: "3/2020 - 10/2025"
+      date: "1/2020 - 10/2025"
       company:
         name: NaviStone
         logo: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/workHistoryLogos%2FNaviStone.png?alt=media&token=e7cff2d4-d079-47ba-bc80-6a5eafe59d7e"
         url: "https://navistone.com"
         color: "#e6832d"
     - position: "Senior Engineer at"
-      date: "1/2017 - 3/2020"
+      date: "1/2017 - 1/2020"
       company:
         name: Fifth Third
         logo: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/workHistoryLogos%2FFifthThird.png?alt=media&token=597d6238-09a6-4b13-a6af-6862912edb4c"
