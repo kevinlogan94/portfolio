@@ -40,7 +40,12 @@ useSeoMeta({
   ogTitle: title
 })
 
-const articleLink = computed(() => `${window?.location}`)
+const articleLink = computed(() => {
+  if (import.meta.client && window) {
+    return window.location.href
+  }
+  return ''
+})
 
 const formatDate = (dateString: string) => {
   return new Date(dateString).toLocaleDateString('en-US', {
