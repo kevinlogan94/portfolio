@@ -1,4 +1,8 @@
 <script setup lang="ts">
+const { data: posts } = await useAsyncData('blog-posts', () =>
+  queryCollection('blog').order('date', 'DESC').all()
+)
+
 useSeoMeta({
   title: 'Blog',
   ogTitle: 'Blog',
@@ -15,7 +19,11 @@ useSeoMeta({
     />
 
     <UPageBody>
-      <div class="flex flex-col items-center justify-center py-24 px-6 rounded-xl border border-dashed border-muted/50 bg-muted/5">
+      <!-- Coming Soon Placeholder (when no posts) -->
+      <div
+        v-if="!posts || posts.length === 0"
+        class="flex flex-col items-center justify-center py-24 px-6 rounded-xl border border-dashed border-muted/50 bg-muted/5"
+      >
         <UIcon
           name="i-lucide-notebook-pen"
           class="size-16 text-muted mb-6"
@@ -33,6 +41,16 @@ useSeoMeta({
           icon="i-lucide-arrow-left"
         />
       </div>
+
+      <!-- Blog Posts Grid -->
+      <UBlogPosts v-else>
+        <UBlogPost
+          v-for="(post, index) in posts"
+          :key="index"
+          v-bind="post"
+          :to="post.path"
+        />
+      </UBlogPosts>
     </UPageBody>
   </UPage>
 </template>
