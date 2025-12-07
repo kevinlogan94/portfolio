@@ -7,7 +7,7 @@ export default defineAppConfig({
     },
     meetingLink: 'https://cal.com/kevinlogan7',
     email: 'kevinmlogan7@gmail.com',
-    available: true
+    available: false
   },
   ui: {
     colors: {
