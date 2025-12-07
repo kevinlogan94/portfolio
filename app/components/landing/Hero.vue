@@ -12,7 +12,7 @@ defineProps<{
   <UPageHero
     :ui="{
       headline: 'flex items-center justify-center',
-      title: 'text-shadow-md max-w-md mx-auto text-xl sm:text-5xl lg:text-3xl',
+      title: 'text-shadow-md max-w-md mx-auto text-xl sm:text-5xl lg:text-4xl',
       links: 'mt-4 flex-col justify-center items-center'
     }"
   >
@@ -78,7 +78,7 @@ defineProps<{
           duration: 0.6,
           delay: 0.3
         }"
-        class="text-sm sm:text-base max-w-md mx-auto"
+        class="text-md md:text-base max-w-md mx-auto"
       >
         {{ page.description }}
       </Motion>

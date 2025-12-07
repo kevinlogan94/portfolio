@@ -28,8 +28,8 @@ useSeoMeta({
       orientation="horizontal"
       :ui="{
         container: 'lg:flex sm:flex-row items-center',
-        title: '!mx-0 text-left',
-        description: '!mx-0 text-left',
+        title: '!mx-0 text-left text-xl sm:text-5xl lg:text-5xl',
+        description: '!mx-0 text-left text-md md:text-base',
         links: 'justify-start'
       }"
     >
