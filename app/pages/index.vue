@@ -29,13 +29,7 @@ useSeoMeta({
       <LandingAbout :page />
       <LandingWorkExperience :page />
     </UPageSection>
-    <UPageSection
-      :ui="{
-        container: '!pt-0 lg:grid lg:grid-cols-2 lg:gap-8'
-      }"
-    >
-      <LandingBlog :page />
-    </UPageSection>
+    <LandingBlog :page />
     <LandingTestimonials :page />
     <LandingFAQ :page />
   </UPage>

@@ -12,7 +12,7 @@ defineProps<{
   <UPageHero
     :ui="{
       headline: 'flex items-center justify-center',
-      title: 'text-shadow-md max-w-lg mx-auto',
+      title: 'text-shadow-md max-w-md mx-auto text-xl sm:text-5xl lg:text-3xl',
       links: 'mt-4 flex-col justify-center items-center'
     }"
   >
@@ -78,6 +78,7 @@ defineProps<{
           duration: 0.6,
           delay: 0.3
         }"
+        class="text-sm sm:text-base max-w-md mx-auto"
       >
         {{ page.description }}
       </Motion>
@@ -155,9 +156,9 @@ defineProps<{
       </div>
     </template>
 
-    <UPageMarquee
+    <UMarquee
       pause-on-hover
-      class="py-2 -mx-4 sm:-mx-6 lg:-mx-8 [--duration:40s]"
+      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]"
     >
       <Motion
         v-for="(img, index) in page.hero.images"
@@ -177,14 +178,14 @@ defineProps<{
           delay: index * 0.1
         }"
       >
-        <img
+        <NuxtImg
           width="234"
           height="234"
-          class="rounded-lg"
+          class="rounded-lg aspect-square object-cover"
           :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
           v-bind="img"
-        >
+        />
       </Motion>
-    </UPageMarquee>
+    </UMarquee>
   </UPageHero>
 </template>
