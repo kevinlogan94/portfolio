@@ -16,6 +16,7 @@ const { data: posts } = await useAsyncData('index-blogs', () =>
     :description="page.blog.description"
     :ui="{
       container: '!pt-0',
+      body: 'p-2',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
       description: 'text-left mt-3 text-sm sm:text-md lg:text-sm text-muted'
     }"
@@ -33,7 +34,7 @@ const { data: posts } = await useAsyncData('index-blogs', () =>
         :to="post.path"
         :ui="{
           root: 'group relative lg:items-start lg:flex ring-0 hover:ring-0',
-          body: '!px-0',
+          body: 'sm:p-0 !px-0',
           header: 'hidden'
         }"
       >
