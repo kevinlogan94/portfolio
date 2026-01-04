@@ -15,7 +15,7 @@ hero:
       alt: Colorado
     - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2Fcloud.jpg?alt=media&token=3a87a796-9208-437d-ba34-2fc0e6b23af1
       alt: Cloud
-    - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2FaceAndKevin.JPG?alt=media&token=6d245836-ad61-41aa-82d4-57bf6365961c
+    - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/aceAndKevin.JPG
       alt: Ace and Kevin
     - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2Fnavistone.jpg?alt=media&token=46c8bc2a-e5ee-4b13-8e6f-083d830d08fc
       alt: Navistone

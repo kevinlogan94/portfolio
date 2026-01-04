@@ -3,7 +3,7 @@ title: "My biggest mistake (And What I Learned)"
 description: "The story of a critical production bug that affected high-net-worth customers and the leadership lessons learned from taking ownership."
 date: 2025-12-07
 minRead: 6
-image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=630&fit=crop&q=80
+image: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/blogs/coding-screen.jpeg
 author:
   name: Kevin Logan
   avatar:
