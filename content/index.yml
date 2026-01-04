@@ -33,6 +33,13 @@ experience:
   title: Work Experience
   items:
     - position: "Engineering Lead at"
+      date: "12/2025 - Present"
+      company:
+        name: Fastbreak AI
+        logo: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/workHistoryLogos/Fastbreak.jpeg"
+        url: "https://www.fastbreak.ai"
+        color: "#17F2E3"
+    - position: "Engineering Lead at"
       date: "1/2020 - 10/2025"
       company:
         name: NaviStone
