@@ -1,9 +1,9 @@
 ---
-title: "How I Broke the Account Screen for Our Richest Customers (And What I Learned)"
+title: "My biggest mistake (And What I Learned)"
 description: "The story of a critical production bug that affected high-net-worth customers and the leadership lessons learned from taking ownership."
 date: 2025-12-07
 minRead: 6
-image: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/blogs/mistakes.png
+image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=630&fit=crop&q=80
 author:
   name: Kevin Logan
   avatar:
@@ -48,4 +48,7 @@ To accomplish your goals, you will have to take risks with yourself and your wor
 Be bold. I could have let this experience terrify me into playing it safe, but I didn't. I kept leading the charge. You have to be willing to learn from your failures, but you cannot let them stop you.
 
 Don't focus on your mistakes, focus on how you respond to them. Do you run away and hide? Or do you take ownership, learn the lesson, and fix it?
+
+
+
 
