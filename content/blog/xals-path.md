@@ -3,11 +3,11 @@ title: "Fulfilling a Five-Year-Old's Promise: The Making of Xal's Path"
 description: "The story of how a childhood dream to build a video game finally became reality."
 date: 2025-12-05
 minRead: 8
-image: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2FxalsPath.jpg?alt=media&token=ae9bd4b9-de71-40be-8eec-92d9325a791a
+image: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/xalsPath.jpg
 author:
   name: Kevin Logan
   avatar:
-    src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/profile%2Fprofile_headshot_.jpg?alt=media&token=2665e26c-8ab7-4de0-9da9-14e487cfb9f4
+    src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/profile_headshot.jpg
     alt: Kevin Logan
 ---
 

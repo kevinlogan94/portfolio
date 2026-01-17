@@ -9,21 +9,21 @@ hero:
       to: "mailto:kevinmlogan7@gmail.com"
       color: "neutral"
   images:
-    - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2FxalsPath.jpg?alt=media&token=ae9bd4b9-de71-40be-8eec-92d9325a791a
+    - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/xalsPath.jpg
       alt: Dev Desk
-    - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2Fcolorado.jpg?alt=media&token=2b90db5c-d1ae-4d96-9c38-1a287017879f
+    - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/colorado.jpg
       alt: Colorado
-    - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2Fcloud.jpg?alt=media&token=3a87a796-9208-437d-ba34-2fc0e6b23af1
+    - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/cloud.jpg
       alt: Cloud
     - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/aceAndKevin.JPG
       alt: Ace and Kevin
-    - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2Fnavistone.jpg?alt=media&token=46c8bc2a-e5ee-4b13-8e6f-083d830d08fc
+    - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/navistone.jpg
       alt: Navistone
-    - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2FmiamiBeach.jpg?alt=media&token=c652aa55-e84a-42ad-bfa4-aa26c9035c13
+    - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/miamiBeach.jpg
       alt: Miami Beach
-    - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2FfoundsDay2025.PNG?alt=media&token=7ad86a19-fb94-45a8-a487-94541e41c7f8
+    - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/foundsDay2025.PNG
       alt: Found's Day 2025
-    - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/marquee%2FiceCream.jpg?alt=media&token=edd9218e-ba23-469d-8627-0ed19359964a
+    - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/iceCream.jpg
       alt: Ice Cream
 about:
   title: "About Me"
@@ -36,21 +36,21 @@ experience:
       date: "1/2020 - 10/2025"
       company:
         name: NaviStone
-        logo: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/workHistoryLogos%2FNaviStone.png?alt=media&token=e7cff2d4-d079-47ba-bc80-6a5eafe59d7e"
+        logo: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/workHistoryLogos/NaviStone.png"
         url: "https://navistone.com"
         color: "#e6832d"
     - position: "Senior Engineer at"
       date: "1/2017 - 1/2020"
       company:
         name: Fifth Third
-        logo: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/workHistoryLogos%2FFifthThird.png?alt=media&token=597d6238-09a6-4b13-a6af-6862912edb4c"
+        logo: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/workHistoryLogos/FifthThird.png"
         url: "https://fifththird.com"
         color: "#00449E"
     - position: "Software Engineer at"
       date: "8/2016 - 1/2017"
       company:
         name: Hasbro
-        logo: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/workHistoryLogos%2FHasbro.png?alt=media&token=f155f88c-ddb9-4ef6-a922-76e605f784e4"
+        logo: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/workHistoryLogos/Hasbro.png"
         url: "https://hasbro.com"
         color: "#0077C8"
 testimonials:
@@ -59,29 +59,29 @@ testimonials:
       name: 'Larry Kavanagh'
       description: 'CEO at NaviStone'
       avatar:
-        src: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FlarryKavanagh.jpg?alt=media&token=8884b09e-6acf-406c-aad9-5dd944028044'
-        srcset: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FlarryKavanagh.jpg?alt=media&token=8884b09e-6acf-406c-aad9-5dd944028044 2x'
+        src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/larryKavanagh.jpg'
+        srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/larryKavanagh.jpg 2x'
   - quote: "He pairs deep technical knowledge with steady leadership and mentorship. He builds processes that actually help teams work better and writes code that solves real problems."
     author:
       name: 'Tom White'
       description: 'Former CTO at NaviStone'
       avatar:
-        src: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FtomWhite.jpg?alt=media&token=782b95fa-5f68-4e60-9d55-c054bcca1792'
-        srcset: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FtomWhite.jpg?alt=media&token=782b95fa-5f68-4e60-9d55-c054bcca1792 2x'
+        src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/tomWhite.jpg'
+        srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/tomWhite.jpg 2x'
   - quote: "He is absolutely one of the best and most intelligent people I have interacted with during my career."
     author:
       name: 'Zachary Matthews'
       description: 'Software Engineer at NaviStone'
       avatar:
-        src: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FzacharyMatthews.jpg?alt=media&token=57a6f7d7-49be-48b0-97ab-12ea87449067'
-        srcset: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FzacharyMatthews.jpg?alt=media&token=57a6f7d7-49be-48b0-97ab-12ea87449067 2x'
+        src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/zacharyMatthews.jpg'
+        srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/zacharyMatthews.jpg 2x'
   - quote: "Beyond his technical skills, Kevin's positive attitude and approachable nature fostered a great team environment."
     author:
       name: 'Travis Mikolay'
       description: 'UX/UI Specialist'
       avatar:
-        src: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FtravisMikolay.jpg?alt=media&token=393991e5-2175-440e-81a7-494f696af23a'
-        srcset: 'https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/testimonial%2FtravisMikolay.jpg?alt=media&token=393991e5-2175-440e-81a7-494f696af23a 2x'
+        src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/travisMikolay.jpg'
+        srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/travisMikolay.jpg 2x'
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"

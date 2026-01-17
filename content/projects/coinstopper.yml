@@ -1,6 +1,6 @@
 title: "Coin Stopper"
 description: "A local-first desktop app to automate cryptocurrency trading on Coinbase using a customizable grid strategy. Built with Electron, Vue.js, and TypeScript."
-image: "https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/projects%2Fcoinstopper.png?alt=media&token=874991a4-6c73-4696-97a9-48ab5fc14d5b"
+image: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/coinstopper.png"
 url: "https://github.com/kevinlogan94/coinstopper-desktop-app"
 tags: ["Desktop App", "Electron", "VueJS", "Cryptocurrency"]
 date: "2025"
