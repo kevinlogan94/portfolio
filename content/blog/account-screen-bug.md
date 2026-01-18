@@ -7,7 +7,7 @@ image: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/
 author:
   name: Kevin Logan
   avatar:
-    src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/profile%2Fprofile_headshot_.jpg?alt=media&token=2665e26c-8ab7-4de0-9da9-14e487cfb9f4
+    src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/profile_headshot.jpg
     alt: Kevin Logan
 ---
 

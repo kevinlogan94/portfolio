@@ -7,8 +7,13 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vueuse/nuxt',
     'nuxt-og-image',
-    'motion-v/nuxt'
+    'motion-v/nuxt',
+    'nuxt-gtag'
   ],
+
+  gtag: {
+    id: process.env.GOOGLE_ANALYTICS_ID
+  },
 
   devtools: {
     enabled: true

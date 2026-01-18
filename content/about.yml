@@ -19,7 +19,7 @@ content: |
   Feel free to browse my [projects](/projects) or [get in touch](/) if you'd like to collaborate.  
 
 images:
-  - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/about%2Fgrinch.jpg?alt=media&token=5463ca59-5844-4d7e-a92c-1dd3a281836f
+  - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/about/grinch.jpg
     alt: Improv as the Grinch
-  - src: https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/about%2FnewZealand.jpg?alt=media&token=90cfd75a-cc47-4a1d-a850-db96e30bb3b7
+  - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/about/newZealand.jpg
     alt: My trip to New Zealand
