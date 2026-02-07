@@ -35,12 +35,29 @@ if (page.value.image) {
 
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
+// Ensure canonical URL has trailing slash to match redirect behavior
+const canonicalPath = normalizedPath.endsWith('/') ? normalizedPath : `${normalizedPath}/`
+const canonicalUrl = `https://kevinlogan.com${canonicalPath}`
+
+// Convert date to ISO string format for SEO meta
+const publishedTime = page.value?.date 
+  ? new Date(page.value.date).toISOString() 
+  : undefined
 
 useSeoMeta({
   title,
   description,
   ogDescription: description,
-  ogTitle: title
+  ogTitle: title,
+  ogImage: page.value?.image,
+  ogType: 'article',
+  articlePublishedTime: publishedTime
+})
+
+useHead({
+  link: [
+    { rel: 'canonical', href: canonicalUrl }
+  ]
 })
 
 const articleLink = computed(() => {
