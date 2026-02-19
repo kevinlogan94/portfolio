@@ -89,6 +89,13 @@ testimonials:
       avatar:
         src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/travisMikolay.jpg'
         srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/travisMikolay.jpg 2x'
+  - quote: "His encouragement and mentorship genuinely inspired me to make meaningful changes, including losing over 50 lb in just 3-4 months."
+    author:
+      name: 'Clark Mercado'
+      description: 'Software Engineer'
+      avatar:
+        src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/clarkMercado.jpg'
+        srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/clarkMercado.jpg 2x'
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
