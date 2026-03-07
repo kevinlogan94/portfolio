@@ -96,6 +96,13 @@ testimonials:
       avatar:
         src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/clarkMercado.jpg'
         srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/clarkMercado.jpg 2x'
+  - quote: "Kevin was a true advocate for the developers and had a real knack for clearing obstacles, effectively halving the time we spent stuck on blockers which allowed us to ship code significantly faster."
+    author:
+      name: 'Max Kelsch'
+      description: 'Senior Software Engineer & Tech Lead'
+      avatar:
+        src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/maxKielcz.jpg'
+        srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/maxKielcz.jpg 2x'
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
