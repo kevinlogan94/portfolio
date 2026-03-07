@@ -40,8 +40,8 @@ const canonicalPath = normalizedPath.endsWith('/') ? normalizedPath : `${normali
 const canonicalUrl = `https://kevinlogan.com${canonicalPath}`
 
 // Convert date to ISO string format for SEO meta
-const publishedTime = page.value?.date 
-  ? new Date(page.value.date).toISOString() 
+const publishedTime = page.value?.date
+  ? new Date(page.value.date).toISOString()
   : undefined
 
 useSeoMeta({
