@@ -1,7 +1,7 @@
 ---
 title: "Fulfilling a Five-Year-Old's Promise: The Making of Xal's Path"
 description: "The story of how a childhood dream to build a video game finally became reality."
-date: 2025-12-05
+date: 2025-12-05T12:00:00.000Z
 minRead: 8
 image: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/xalsPath.jpg
 author:

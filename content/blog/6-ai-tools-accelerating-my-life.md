@@ -1,7 +1,7 @@
 ---
 title: "The 6 AI tools that are accelerating my life"
 description: "I use these tools every day to write code faster, learn new topics deeper, run better meetings, and remove as much busywork from my life as possible."
-date: 2026-01-17
+date: 2026-01-17T12:00:00.000Z
 minRead: 9
 image: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/blogs/ai-tool-photo.jpeg
 author:

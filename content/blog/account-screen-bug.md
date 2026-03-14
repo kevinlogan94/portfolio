@@ -1,7 +1,7 @@
 ---
 title: "My biggest mistake (And What I Learned)"
 description: "The story of a critical production bug that affected high-net-worth customers and the leadership lessons learned from taking ownership."
-date: 2025-12-07
+date: 2025-12-07T12:00:00.000Z
 minRead: 6
 image: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/blogs/coding-screen.jpeg
 author:

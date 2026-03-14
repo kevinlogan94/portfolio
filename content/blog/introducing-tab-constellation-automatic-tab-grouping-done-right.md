@@ -1,7 +1,7 @@
 ---
 title: "Introducing Tab Constellation: Automatic Tab Grouping Done Right"
 description: "I built Tab Constellation to do one thing well: automatically group Chrome tabs by domain with zero setup."
-date: 2026-03-14
+date: 2026-03-14T12:00:00.000Z
 minRead: 4
 image: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/tabConstellationBanner.png
 author:
