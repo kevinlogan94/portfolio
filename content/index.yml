@@ -104,8 +104,8 @@ testimonials:
         src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/maxKielcz.jpg'
         srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/maxKielcz.jpg 2x'
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "Latest Blogs"
+  description: "Some of my recent blog posts"
 faq:
   title: Frequently Asked Questions
   description: A little more about how I work and what I value.

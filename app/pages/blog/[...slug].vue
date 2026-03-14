@@ -68,6 +68,7 @@ const articleLink = computed(() => {
 })
 
 const formatDate = (dateString: string) => {
+  dateString = dateString.replace('T00:00:00.000Z', 'T12:00:00.000Z').replace('T00:00:00Z', 'T12:00:00Z')
   return new Date(dateString).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'short',
