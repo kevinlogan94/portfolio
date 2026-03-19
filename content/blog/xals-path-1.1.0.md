@@ -51,7 +51,7 @@ All of his shortcomings from the first iteration have been fixed, and I've given
 
 The Fire Horse was always one of the more visually striking elements of the game, and the redesign takes that to another level. This horse was actually the very first creature designed in the entire game.
 
-The new version brings more fluid movement and a much more dramatic presence. Watch both GIFs back to back — the difference is hard to miss.
+The new version brings more fluid movement and a much more dramatic presence. Watch both GIFs back to back; the difference is hard to miss.
 
 <div style="display: flex; gap: 16px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
   <figure style="flex: 0 1 320px; margin: 0; display: flex; flex-direction: column;">
@@ -87,8 +87,8 @@ The Wisp might be the most transformed of the three. What was once a floating he
 
 This is just the beginning of what I'll be sharing as development continues.
 
-I'm aiming to have the remaster available on TestFlight by the end of the month, so you can get hands-on with it soon.
+I'm aiming to have the remaster available on TestFlight in May, so you can get hands-on with it soon.
 
 In the meantime, your feedback is incredibly valuable. If you have thoughts, suggestions, or things you'd like to see, please reach out.
 
-Stay tuned for more updates over the next few weeks as we get closer to launch.
+Stay tuned as we get closer to launch.
