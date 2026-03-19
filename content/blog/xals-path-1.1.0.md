@@ -12,7 +12,7 @@ author:
     alt: Kevin Logan
 ---
 
-It's been a while since Xal's Path first launched back in 2021, and a lot has changed since then, including me. I've grown as a developer, the tools have gotten better, and honestly, this game deserves a major update given all the major AI improvements coming out.
+It's been a while since Xal's Path first launched back in 2022, and a lot has changed since then, including me. I've grown as a developer, the tools have gotten better, and honestly, this game deserves a major update given all the major AI improvements coming out.
 
 I also want to give a shout-out to [Dan Bellinski](https://www.linkedin.com/in/danbellinski/), whose recent re-release of [Mort’s Minions](https://apps.apple.com/us/app/morts-minions-side-scroller/id1082229199) inspired me to do this.
 
