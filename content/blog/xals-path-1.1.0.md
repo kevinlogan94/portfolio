@@ -16,9 +16,9 @@ It's been a while since Xal's Path first launched back in 2022, and a lot has ch
 
 I also want to give a shout-out to [Dan Bellinski](https://www.linkedin.com/in/danbellinski/), whose recent re-release of [Mort’s Minions](https://apps.apple.com/us/app/morts-minions-side-scroller/id1082229199) inspired me to do this.
 
-That's why I'm thrilled to give you your first official look at the remaster.
+That's why I'm thrilled to give you your first official look at v1.1.0.
 
-This isn't just a technical update; it's a full art redesign from the ground up. Every sprite, every animation, every character has been rethought and rebuilt.
+This isn't just a technical update; it's a full art redesign from the ground up. Every sprite and animation has been rethought and rebuilt.
 
 ## What's Changing Under the Hood
 
