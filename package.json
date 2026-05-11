@@ -13,11 +13,11 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@iconify-json/lucide": "1.2.102",
-    "@iconify-json/simple-icons": "1.2.79",
+    "@iconify-json/lucide": "1.2.104",
+    "@iconify-json/simple-icons": "1.2.80",
     "@nuxt/content": "3.13.0",
     "@nuxt/image": "^2.0.0",
-    "@nuxt/ui": "4.6.1",
+    "@nuxt/ui": "4.7.0",
     "@vueuse/nuxt": "^13.9.0",
     "better-sqlite3": "12.9.0",
     "motion-v": "^1.10.3",
