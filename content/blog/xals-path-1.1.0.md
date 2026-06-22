@@ -7,8 +7,8 @@ image: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/
 author:
   name: Kevin Logan
   avatar:
-    src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/profile_headshot_smaller.jpg
-    srcset: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/profile_headshot_smaller.jpg 2x
+    src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/2026-profile-blue.jpg
+    srcset: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/2026-profile-blue.jpg 2x
     alt: Kevin Logan
 ---
 
