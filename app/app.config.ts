@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/profile_headshot.jpg',
-      light: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/profile_headshot.jpg',
+      dark: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/2026-profile-blue.jpg',
+      light: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/2026-profile-blue.jpg',
       alt: 'My profile picture'
     },
     meetingLink: 'https://cal.com/kevinlogan7',

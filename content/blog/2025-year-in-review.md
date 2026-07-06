@@ -1,13 +1,14 @@
 ---
 title: "2025: My Biggest Year of Growth"
 description: "A reflection on the transformative year that pushed me to greater limits, from career changes to personal adventures and everything in between."
-date: 2026-01-04
+date: 2026-01-04T12:00:00.000Z
 minRead: 10
 image: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/blogs/bus-driving-away.jpeg
 author:
   name: Kevin Logan
   avatar:
-    src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/profile_headshot.jpg
+    src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/2026-profile-blue.jpg
+    srcset: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/2026-profile-blue.jpg 2x
     alt: Kevin Logan
 ---
 

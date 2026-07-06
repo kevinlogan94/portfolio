@@ -1,6 +1,6 @@
 seo:
   title: "Senior Full-Stack Engineer"
-  description: "Senior Full-Stack Engineer and technical leader with 8 years of experience scaling systems, mentoring engineers, and launching platforms from the ground up. Known for blending backend depth with frontend intuition, and bringing engineering orgs into modern, developer-friendly ecosystems. Combines enterprise-grade engineering rigor with product-led thinking, having launched both internal platforms and consumer-facing apps across startups and established tech. Passionate about building durable systems, elevating engineering culture, and shaping the next generation of technical leadership."
+  description: "Senior Full-Stack Engineer and technical leader with 9 years of experience scaling systems, mentoring engineers, and launching platforms from the ground up. Known for blending backend depth with frontend intuition, and bringing engineering orgs into modern, developer-friendly ecosystems. Combines enterprise-grade engineering rigor with product-led thinking, having launched both internal platforms and consumer-facing apps across startups and established tech. Passionate about building durable systems, elevating engineering culture, and shaping the next generation of technical leadership."
 title: "Hey, I'm Kevin Logan, Senior Full-Stack Engineer"
 description: "I design and ship scalable systems, lead through architecture and code, and mentor engineers."
 hero:
@@ -15,7 +15,7 @@ hero:
       alt: Colorado
     - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/cloud.jpg
       alt: Cloud
-    - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/aceAndKevin.JPG
+    - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/aceAndKevin2026.png
       alt: Ace and Kevin
     - src: https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/marquee/navistone.jpg
       alt: Navistone
@@ -28,18 +28,18 @@ hero:
 about:
   title: "About Me"
   description: |
-    Senior Full-Stack Engineer and technical leader with 8 years of experience scaling systems, mentoring engineers, and launching platforms from the ground up. Known for blending backend depth with frontend intuition, and bringing engineering orgs into modern, developer-friendly ecosystems. Combines enterprise-grade engineering rigor with product-led thinking, having launched both internal platforms and consumer-facing apps across startups and established tech. Passionate about building durable systems, elevating engineering culture, and shaping the next generation of technical leadership.
+    Senior Full-Stack Engineer and technical leader with 9 years of experience scaling systems, mentoring engineers, and launching platforms from the ground up. Known for blending backend depth with frontend intuition, and bringing engineering orgs into modern, developer-friendly ecosystems. Combines enterprise-grade engineering rigor with product-led thinking, having launched both internal platforms and consumer-facing apps across startups and established tech. Passionate about building durable systems, elevating engineering culture, and shaping the next generation of technical leadership.
 experience:
   title: Work Experience
   items:
-    - position: "Engineering Lead at"
+    - position: "Lead Engineer at"
       date: "12/2025 - Present"
       company:
         name: Fastbreak AI
         logo: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/workHistoryLogos/fastbreak-ai.png"
         url: "https://www.fastbreak.ai"
         color: "#17F2E3"
-    - position: "Engineering Lead at"
+    - position: "Engineering Team Lead at"
       date: "1/2020 - 10/2025"
       company:
         name: NaviStone
@@ -89,9 +89,23 @@ testimonials:
       avatar:
         src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/travisMikolay.jpg'
         srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/travisMikolay.jpg 2x'
+  - quote: "His encouragement and mentorship genuinely inspired me to make meaningful changes, including losing over 50 lb in just 3-4 months."
+    author:
+      name: 'Clark Mercado'
+      description: 'Software Engineer'
+      avatar:
+        src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/clarkMercado.jpg'
+        srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/clarkMercado.jpg 2x'
+  - quote: "Kevin was a true advocate for the developers and had a real knack for clearing obstacles, effectively halving the time we spent stuck on blockers which allowed us to ship code significantly faster."
+    author:
+      name: 'Max Kelsch'
+      description: 'Senior Software Engineer & Tech Lead'
+      avatar:
+        src: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/maxKielcz.jpg'
+        srcset: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/testimonials/maxKielcz.jpg 2x'
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "Latest Blogs"
+  description: "Some of my recent blog posts"
 faq:
   title: Frequently Asked Questions
   description: A little more about how I work and what I value.

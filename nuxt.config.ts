@@ -11,10 +11,6 @@ export default defineNuxtConfig({
     'nuxt-gtag'
   ],
 
-  gtag: {
-    id: process.env.GOOGLE_ANALYTICS_ID
-  },
-
   devtools: {
     enabled: true
   },
@@ -39,5 +35,9 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  gtag: {
+    id: process.env.GOOGLE_ANALYTICS_ID
   }
 })
