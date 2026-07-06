@@ -13,25 +13,27 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@iconify-json/lucide": "1.2.93",
-    "@iconify-json/simple-icons": "1.2.71",
-    "@nuxt/content": "3.11.2",
+    "@iconify-json/lucide": "1.2.114",
+    "@iconify-json/simple-icons": "1.2.86",
+    "@nuxt/content": "3.14.0",
     "@nuxt/image": "^2.0.0",
-    "@nuxt/ui": "4.4.0",
-    "@vueuse/nuxt": "^13.9.0",
-    "better-sqlite3": "12.6.2",
-    "motion-v": "^1.10.3",
-    "nuxt": "4.3.1",
+    "@nuxt/ui": "4.9.0",
+    "@vueuse/nuxt": "^14.3.0",
+    "better-sqlite3": "12.11.1",
+    "motion-v": "^2.3.0",
+    "nuxt": "4.4.8",
     "nuxt-gtag": "^4.1.0",
     "nuxt-og-image": "5.1.13"
   },
   "devDependencies": {
-    "@nuxt/eslint": "1.15.1",
-    "eslint": "9.39.3",
+    "@nuxt/eslint": "1.15.2",
+    "eslint": "9.39.4",
     "typescript": "^5.9.3",
-    "vue-tsc": "3.2.5"
+    "vue-tsc": "3.3.5"
   },
   "resolutions": {
+    "@nuxt/cli": "3.34.0",
+    "h3": "1.15.11",
     "unimport": "4.1.1"
   },
   "pnpm": {
