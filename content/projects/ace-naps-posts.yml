@@ -1,0 +1,6 @@
+title: "Ace Naps Posts"
+description: "A phone-first upload queue for nap photos of Ace. Pick photos on your phone, they land in a queue, and one posts to @ace_naps on Instagram every morning with a random caption. Built with Nuxt and Supabase."
+image: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/aceNapsPostsBanner.png"
+url: "https://github.com/kevinlogan94/ace-naps-posts"
+tags: ["Nuxt", "Supabase", "Instagram API", "Automation"]
+date: "2026-07-05"
