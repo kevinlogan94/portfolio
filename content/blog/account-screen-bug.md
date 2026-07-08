@@ -14,7 +14,7 @@ author:
 
 Back in 2019, I was working as a Software Engineer at a leading bank, leading the charge on a massive tech stack migration. We were converting our core front-end applications from AngularJS to Angular 2.
 
-I was pushing for this. I wanted us to use modern technology, and I wanted to accelerate our team's velocity. I took ownership of converting the Account Screen—a critical piece of the application—and I was feeling good about it. We got the code merged, passed QA, and pushed it to production.
+I was pushing for this. I wanted us to use modern technology, and I wanted to accelerate our team's velocity. I took ownership of converting the Account Screen, a critical piece of the application, and I was feeling good about it. We got the code merged, passed QA, and pushed it to production.
 
 ## The Million-Dollar Bug
 
@@ -22,7 +22,7 @@ The next day, the mood on the floor shifted.
 
 I noticed leadership walking around, looking nervous. They were visiting teams with urgent news: There was a critical bug in production. You would be on the accounts screen, click on your specific account, and the app would just freeze.
 
-But it wasn't failing for everyone. It was specifically failing for our high-net-worth tier—customers with millions in the bank. We had one specific customer threatening to leave the bank entirely if they couldn't see their funds by the end of the day.
+But it wasn't failing for everyone. It was specifically failing for our high-net-worth tier, customers with millions in the bank. We had one specific customer threatening to leave the bank entirely if they couldn't see their funds by the end of the day.
 
 I immediately grabbed the QA team. I asked them to generate mock data specifically mimicking that high-net-worth user profile so I could replicate the experience. As soon as I loaded that data, the issue was glaring. I clicked the account, and everything froze.
 

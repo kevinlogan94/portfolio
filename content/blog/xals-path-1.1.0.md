@@ -28,7 +28,7 @@ But the part of the game that I’m the most excited about is the art.
 
 ---
 
-## Xal — Then vs. Now
+## Xal: Then vs. Now
 
 The main character himself got the most attention. Xal's original design did its job, but the remaster gave me a chance to lean in and bring out his true form.
 
@@ -47,7 +47,7 @@ All of his shortcomings from the first iteration have been fixed, and I've given
 
 ---
 
-## Fire Horse — Then vs. Now
+## Fire Horse: Then vs. Now
 
 The Fire Horse was always one of the more visually striking elements of the game, and the redesign takes that to another level. This horse was actually the very first creature designed in the entire game.
 
@@ -66,7 +66,7 @@ The new version brings more fluid movement and a much more dramatic presence. Wa
 
 ---
 
-## The Wisp — Then vs. Now
+## The Wisp: Then vs. Now
 
 The Wisp might be the most transformed of the three. What was once a floating head has now been completely reimagined. This creature is scary now, and I couldn’t be more thrilled with how it has turned out.
 

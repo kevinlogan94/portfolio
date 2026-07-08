@@ -18,7 +18,7 @@ That promise was the spark that pushed me down the technical path, eventually le
 
 Fast forward to 2021. I had just finished building my first iOS app and was deep into my work at a startup. I was an experienced developer by then, architecting solutions daily, and I had become proficient in C#.
 
-That's when the realization hit me. I looked at Unity—the number one engine for indie games—and realized its scripting backend was C#, and its IDE felt incredibly similar to Xcode. The technical barrier was gone. I no longer had an excuse. It was time to build the game that 5-year-old Kevin would be excited to play.
+That's when the realization hit me. I looked at Unity, the number one engine for indie games, and realized its scripting backend was C#, and its IDE felt incredibly similar to Xcode. The technical barrier was gone. I no longer had an excuse. It was time to build the game that 5-year-old Kevin would be excited to play.
 
 ## The "No Excuses" Scope
 
@@ -40,7 +40,7 @@ I decided Xal's Path would be a clicker game. My mission was to prove that you d
 
 ## The Art of the Grind
 
-I had zero art experience. To fulfill my promise, I took an entire course on pixel art from scratch. I remember taking a full week off from work just to draw the main area where the protagonist—a character locked in a tower—resides. It was humbling to go from being an experienced coder to a total beginner in art, but seeing those pixels come together was worth it.
+I had zero art experience. To fulfill my promise, I took an entire course on pixel art from scratch. I remember taking a full week off from work just to draw the main area where the protagonist, a character locked in a tower, resides. It was humbling to go from being an experienced coder to a total beginner in art, but seeing those pixels come together was worth it.
 
 ## A Family Soundtrack
 
@@ -56,7 +56,7 @@ I wanted the player to feel like the hero, grinding through levels, upgrading st
 
 ## The Bug-Free Launch (and one regret)
 
-My biggest regret wasn't technical—it was administrative. I formed an LLC and filed for a Trademark, which delayed the launch significantly. In retrospect, I should have just shipped it.
+My biggest regret wasn't technical; it was administrative. I formed an LLC and filed for a Trademark, which delayed the launch significantly. In retrospect, I should have just shipped it.
 
 However, when I finally did launch, I was thrilled. I ran a rigorous beta test with friends and family, so on launch day, Xal's Path was 100% bug-free. We threw a launch party, downloads started rolling in, and my phone was blowing up with messages. It was a complete triumph.
 

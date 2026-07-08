@@ -52,9 +52,9 @@ During the program I dealt with intense anxiety that brought with it a flood of 
 
 ---
 
-## 2. Emotions Are Neither Good Nor Bad — They Just Are
+## 2. Emotions Are Neither Good Nor Bad: They Just Are
 
-Growing up, most of us built a habit of sorting our emotions into two piles. Anger, depression, sadness, loneliness, fear — those went in the bad pile. And society reinforced it. We learned to associate these feelings with their worst outcomes, with the damage done when someone acts from rage, or the years lost to depression. So we decided certain emotions were problems to solve rather than signals to hear.
+Growing up, most of us built a habit of sorting our emotions into two piles. Anger, depression, sadness, loneliness, fear, those went in the bad pile. And society reinforced it. We learned to associate these feelings with their worst outcomes, with the damage done when someone acts from rage, or the years lost to depression. So we decided certain emotions were problems to solve rather than signals to hear.
 
 But every emotion comes from somewhere in the body. And when we feel something difficult, it's really just a part of ourselves asking to be heard. The problem with labeling a feeling as bad is that it gives your mind permission to use that feeling against you. The subconscious knows what you'll run from. Why are so many people afraid to quit a job they hate? Because the body would rather keep you in familiar pain than risk the discomfort of the unknown. It will manufacture the feeling of dread around change specifically because it knows you'll avoid it. When you stop labeling your emotions and start treating them as messengers, you stop being manipulated by them.
 

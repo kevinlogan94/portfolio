@@ -40,7 +40,7 @@ The Dent Schoolhouse is one of the top-ranked haunted houses in the country, and
 
 ## Traveled across the country and made a side quest across the world
 
-This year, I traveled to New Zealand, Seattle, San Francisco, Denver, Orlando, Pittsburgh, Nashville, and Charlotte—all in an attempt to figure out where I wanted to spend the next chapter of my life. This experience is one I highly recommend to anyone who wants to see what truly lies out there! After going on so many trips and asking myself, "What am I doing with my life?", I finally took the opportunity to go after true growth and find a new home for myself.
+This year, I traveled to New Zealand, Seattle, San Francisco, Denver, Orlando, Pittsburgh, Nashville, and Charlotte, all in an attempt to figure out where I wanted to spend the next chapter of my life. This experience is one I highly recommend to anyone who wants to see what truly lies out there! After going on so many trips and asking myself, "What am I doing with my life?", I finally took the opportunity to go after true growth and find a new home for myself.
 
 ## Faced the ghosts of Haunted Hillview Manor
 

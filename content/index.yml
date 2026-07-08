@@ -117,7 +117,7 @@ faq:
             I believe in servant leadership. My primary goal is to empower engineers by fostering a culture of ownership, transparency, and continuous learning. I focus on removing obstacles and providing the support and resources my team needs to do their best work, ensuring they are aligned with our strategic goals.
         - label: How do you approach technical debt?
           content: |
-            I view technical debt as a strategic tool—sometimes necessary to achieve business objectives, but it must be managed proactively. I advocate for a balanced approach, dedicating regular time to refactoring and improving our codebase to ensure long-term velocity and system health.
+            I view technical debt as a strategic tool: sometimes necessary to achieve business objectives, but it must be managed proactively. I advocate for a balanced approach, dedicating regular time to refactoring and improving our codebase to ensure long-term velocity and system health.
         - label: What role does mentorship play on your teams?
           content: |
             Mentorship is fundamental to a team's growth. I encourage a culture where knowledge-sharing is constant, with senior engineers guiding junior members through code reviews, pair programming, and dedicated mentoring. Investing in every team member's development elevates the entire team.
@@ -126,7 +126,7 @@ faq:
       questions:
         - label: What do you look for when building a team?
           content: |
-            I look beyond technical skills for qualities like curiosity, a collaborative spirit, and a strong sense of ownership. I value engineers who are passionate about learning, communicate their ideas effectively, and stay focused on building the right solutions for our users. A growth mindset is key, and I especially appreciate engineers who are hungry—those who work on personal projects outside of their day job and show a genuine passion for the craft, because that energy drives innovation and elevates the entire team.
+            I look beyond technical skills for qualities like curiosity, a collaborative spirit, and a strong sense of ownership. I value engineers who are passionate about learning, communicate their ideas effectively, and stay focused on building the right solutions for our users. A growth mindset is key, and I especially appreciate engineers who are hungry, those who work on personal projects outside of their day job and show a genuine passion for the craft, because that energy drives innovation and elevates the entire team.
         - label: How do you foster a positive and inclusive team culture?
           content: |
             By building a foundation of psychological safety, where everyone feels comfortable sharing ideas and feedback without judgment. I actively promote diverse perspectives, ensure our processes are fair and transparent, and make a point to celebrate both individual and team successes.
@@ -138,4 +138,4 @@ faq:
             What I enjoy most about my work is solving complex problems and turning ideas into practical solutions. I thrive on collaborating with others to build systems that make a real impact, and I love seeing the people around me grow and overcome their own limits. I also have a passion for learning and enjoy exploring new technologies that push me to keep growing.
         - label: What are your hobbies outside of work?
           content: |
-            Outside of work, I enjoy improv, weightlifting, exploring anime and manga, and diving into movies — especially Lord of the Rings and The Dark Knight Trilogy. I also manage a small real estate business, owning and operating a duplex, which has taught me a lot about balancing responsibility, relationships, and long-term investment. I like experimenting with men's fashion and personal style, and I make time to connect with friends and family through travel, game nights, or simply catching up.
+            Outside of work, I enjoy improv, weightlifting, exploring anime and manga, and diving into movies, especially Lord of the Rings and The Dark Knight Trilogy. I also manage a small real estate business, owning and operating a duplex, which has taught me a lot about balancing responsibility, relationships, and long-term investment. I like experimenting with men's fashion and personal style, and I make time to connect with friends and family through travel, game nights, or simply catching up.
