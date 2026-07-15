@@ -17,6 +17,19 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  // Nuxt Content MDC components: no Content* prefix, available in markdown
+  components: [
+    {
+      path: '~/components/content',
+      pathPrefix: false,
+      global: true
+    },
+    {
+      path: '~/components',
+      ignore: ['content/**']
+    }
+  ],
+
   compatibilityDate: '2024-11-01',
 
   nitro: {
