@@ -28,6 +28,10 @@ export default defineNuxtConfig({
     }
   },
 
+  routeRules: {
+    '/blog/xals-path-1.1.0': { redirect: { to: '/blog/xals-path-1.2.0', statusCode: 301 } }
+  },
+
   eslint: {
     config: {
       stylistic: {
