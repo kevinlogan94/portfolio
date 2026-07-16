@@ -38,10 +38,10 @@ export default defineAppConfig({
       'target': '_blank',
       'aria-label': 'Kevin Logan on GitHub'
     }, {
-      'icon': 'i-simple-icons-leetcode',
-      'to': 'https://leetcode.com/u/6uNMnKlWG9/',
+      'icon': 'i-simple-icons-x',
+      'to': 'https://x.com/agentickevin_',
       'target': '_blank',
-      'aria-label': 'Kevin Logan on LeetCode'
+      'aria-label': 'Kevin Logan on X'
     }]
   }
 })
