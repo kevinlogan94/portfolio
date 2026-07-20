@@ -23,5 +23,8 @@ logs
 .env.*
 !.env.example
 
+# Supabase CLI
+supabase/.temp/
+
 # VSC
 .history

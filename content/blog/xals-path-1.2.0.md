@@ -1,5 +1,5 @@
 ---
-title: "Xal's Path v1.1.0 - A Sneak Peek at the New Look"
+title: "Xal's Path v1.2.0 - A Sneak Peek at the New Look"
 description: "A first look at the major update coming to Xal's Path with upgraded art and a modern engine."
 date: 2026-03-18T12:00:00.000Z
 minRead: 6
@@ -16,7 +16,7 @@ It's been a while since Xal's Path first launched back in 2022, and a lot has ch
 
 I also want to give a shout-out to [Dan Bellinski](https://www.linkedin.com/in/danbellinski/), whose recent re-release of [Mort’s Minions](https://apps.apple.com/us/app/morts-minions-side-scroller/id1082229199) inspired me to do this.
 
-That's why I'm thrilled to give you your first official look at v1.1.0.
+That's why I'm thrilled to give you your first official look at v1.2.0.
 
 This isn't just a technical update; it's a full art redesign from the ground up. Every sprite and animation has been rethought and rebuilt.
 
@@ -85,10 +85,4 @@ The Wisp might be the most transformed of the three. What was once a floating he
 
 ## What's Next
 
-This is just the beginning of what I'll be sharing as development continues.
-
-I'm aiming to have the remaster available on TestFlight in May, so you can get hands-on with it soon.
-
-In the meantime, your feedback is incredibly valuable. If you have thoughts, suggestions, or things you'd like to see, please reach out.
-
-Stay tuned as we get closer to launch.
+For a fuller then-vs-now look at the remaster roster, backgrounds, and Xal's expressions, see the [Art & Story Archive](/blog/xals-path-art-and-story-archive).

@@ -11,11 +11,28 @@ export default defineNuxtConfig({
     'nuxt-gtag'
   ],
 
+  // Nuxt Content MDC components: no Content* prefix, available in markdown
+  components: [
+    {
+      path: '~/components/content',
+      pathPrefix: false,
+      global: true
+    },
+    {
+      path: '~/components',
+      ignore: ['content/**']
+    }
+  ],
+
   devtools: {
     enabled: true
   },
 
   css: ['~/assets/css/main.css'],
+
+  routeRules: {
+    '/blog/xals-path-1.1.0': { redirect: { to: '/blog/xals-path-1.2.0', statusCode: 301 } }
+  },
 
   compatibilityDate: '2024-11-01',
 
