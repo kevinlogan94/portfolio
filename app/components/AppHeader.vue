@@ -32,7 +32,7 @@ const coffeeHref = 'https://buymeacoffee.com/kevinmlogan'
             <UIcon name="i-lucide-coffee" class="size-3.5" />
             Coffee
           </a>
-          <span class="h-4 w-px shrink-0 bg-default" aria-hidden="true" />
+          <span class="h-5 w-px shrink-0 bg-neutral-500/50 dark:bg-neutral-400/50" aria-hidden="true" />
           <ColorModeButton />
         </div>
       </template>
