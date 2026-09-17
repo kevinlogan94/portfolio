@@ -4,6 +4,8 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 defineProps<{
   links: NavigationMenuItem[]
 }>()
+
+const coffeeHref = 'https://buymeacoffee.com/kevinmlogan'
 </script>
 
 <template>
@@ -19,7 +21,20 @@ defineProps<{
       }"
     >
       <template #list-trailing>
-        <ColorModeButton />
+        <div class="flex items-center gap-2 pl-1">
+          <a
+            :href="coffeeHref"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Buy me a coffee"
+            class="inline-flex h-8 shrink-0 items-center justify-center gap-1 rounded-full bg-[#FFDD00] px-2.5 text-xs font-medium text-[#0f0f0f] no-underline hover:bg-[#f5d400]"
+          >
+            <UIcon name="i-lucide-coffee" class="size-3.5" />
+            Coffee
+          </a>
+          <span class="h-5 w-px shrink-0 bg-neutral-500/50 dark:bg-neutral-400/50" aria-hidden="true" />
+          <ColorModeButton />
+        </div>
       </template>
     </UNavigationMenu>
   </div>
