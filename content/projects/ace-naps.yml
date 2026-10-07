@@ -42,17 +42,17 @@ sections:
     body: Friends and family Kevin invites can photograph Ace napping and upload photos from their phone. The photos land in a Supabase queue. A scheduled cron job publishes them to Instagram @ace_naps through the Instagram API.
     notes: "Nuxt for the invite-only upload UI. Supabase for the queue and the scheduled job. Instagram API for the daily post."
     images:
-      - src: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/aceNapsPosts/ace-nap-1.webp"
+      - src: "/images/projects/ace-naps/ace-nap-1.webp"
         alt: "Ace, a fluffy cream-and-white dog, asleep curled up on a gray couch, his head resting on a black-and-white pillow with a green blanket behind him"
         href: https://www.instagram.com/ace_naps/
         width: 1200
         height: 900
-      - src: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/aceNapsPosts/ace-nap-2.webp"
+      - src: "/images/projects/ace-naps/ace-nap-2.webp"
         alt: "Ace, a fluffy cream-and-white dog, napping curled up on a soft beige carpet with his eyes closed and the tip of his tongue peeking out"
         href: https://www.instagram.com/ace_naps/
         width: 900
         height: 1200
-      - src: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/aceNapsPosts/ace-nap-3.webp"
+      - src: "/images/projects/ace-naps/ace-nap-3.webp"
         alt: "Ace, a fluffy cream-and-white dog, curled up asleep in a patch of sunlight on a navy patterned blanket, the tip of his tongue poking out"
         href: https://www.instagram.com/ace_naps/
         width: 900

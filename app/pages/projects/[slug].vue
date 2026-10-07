@@ -123,15 +123,16 @@ useSeoMeta({
             :aria-label="`${image.alt} (opens in a new tab)`"
             class="block overflow-hidden rounded-lg bg-muted"
           >
-            <img
+            <NuxtImg
               :src="image.src"
               :alt="image.alt"
               :width="image.width"
               :height="image.height"
               loading="lazy"
+              sizes="100vw sm:33vw"
               class="h-auto w-full"
               :style="image.width && image.height ? { aspectRatio: `${image.width} / ${image.height}` } : undefined"
-            >
+            />
           </a>
         </div>
         <div
