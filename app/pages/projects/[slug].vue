@@ -49,6 +49,7 @@ useSeoMeta({
         :description="project.description"
         orientation="horizontal"
         :ui="{
+          container: '!py-8 sm:!py-12 lg:!py-16',
           title: '!mx-0 text-left text-xl sm:text-5xl lg:text-5xl',
           description: '!mx-0 max-w-prose text-left text-md md:text-base',
           links: 'justify-start'
@@ -95,7 +96,7 @@ useSeoMeta({
       </UPageHero>
       <UPageSection
         v-else-if="sectionById[block]"
-        :ui="{ container: blockIndex === 1 ? '!pt-0 !pb-12 sm:!pb-16' : '!py-12 sm:!py-16' }"
+        :ui="{ container: blockIndex === 1 ? '!gap-0 !pt-0 !pb-8 sm:!pb-10' : '!gap-0 !py-8 sm:!py-10' }"
       >
         <h2 class="text-left text-xl font-medium text-highlighted lg:text-2xl">
           {{ sectionById[block].title }}
