@@ -27,6 +27,10 @@ function extractYear(date: unknown): number {
   return 0
 }
 
+function projectHref(project: { slug?: string, url?: string }) {
+  return project.slug ? `/projects/${project.slug}` : (project.url || undefined)
+}
+
 const sortedProjects = computed(() => {
   return (projects.value || []).slice().sort((a: any, b: any) => extractYear(b.date) - extractYear(a.date))
 })
@@ -86,7 +90,7 @@ useSeoMeta({
         <UPageCard
           :title="project.title"
           :description="project.description"
-          :to="project.url || undefined"
+          :to="projectHref(project)"
           orientation="horizontal"
           variant="naked"
           :reverse="index % 2 === 1"
@@ -101,15 +105,25 @@ useSeoMeta({
             </span>
           </template>
           <template #footer>
+            <span
+              v-if="project.slug"
+              class="text-sm text-primary flex items-center"
+            >
+              View Project
+              <UIcon
+                name="i-lucide-arrow-right"
+                class="size-4 text-primary opacity-0 transition-all group-hover:translate-x-1 group-hover:opacity-100 motion-reduce:transition-none motion-reduce:opacity-100"
+              />
+            </span>
             <ULink
-              v-if="project.url"
+              v-else-if="project.url"
               :to="project.url"
               class="text-sm text-primary flex items-center"
             >
               View Project
               <UIcon
                 name="i-lucide-arrow-right"
-                class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
+                class="size-4 text-primary opacity-0 transition-all group-hover:translate-x-1 group-hover:opacity-100 motion-reduce:transition-none motion-reduce:opacity-100"
               />
             </ULink>
           </template>

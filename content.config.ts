@@ -80,9 +80,45 @@ export default defineContentConfig({
         title: z.string().nonempty(),
         description: z.string().nonempty(),
         image: z.string().nonempty().editor({ input: 'media' }),
+        imageAlt: z.string().optional(),
         url: z.string().nonempty(),
         tags: z.array(z.string()),
-        date: z.date()
+        date: z.date(),
+        slug: z.string().optional(),
+        links: z.array(z.object({
+          label: z.string(),
+          icon: z.string(),
+          to: z.string()
+        })).optional(),
+        youtubeId: z.string().optional(),
+        youtubeLabel: z.string().optional(),
+        blocks: z.array(z.string()).optional(),
+        summary: z.object({
+          stack: z.string(),
+          status: z.string(),
+          code: z.string()
+        }).optional(),
+        sections: z.array(z.object({
+          id: z.string(),
+          title: z.string(),
+          body: z.string().optional(),
+          notes: z.string().optional(),
+          images: z.array(z.object({
+            src: z.string().editor({ input: 'media' }),
+            alt: z.string(),
+            href: z.string(),
+            width: z.number().optional(),
+            height: z.number().optional()
+          })).optional(),
+          youtubeId: z.string().optional(),
+          youtubeLabel: z.string().optional(),
+          columns: z.array(z.object({
+            title: z.string(),
+            steps: z.array(z.string())
+          })).optional(),
+          items: z.array(z.string()).optional(),
+          showLinks: z.boolean().optional()
+        })).optional()
       })
     }),
     blog: defineCollection({

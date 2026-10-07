@@ -1,0 +1,91 @@
+title: "Ace Naps"
+description: "A quiet way to nap with Ace, wherever you are."
+image: "/images/projects/ace-naps/banner.jpg"
+imageAlt: "Ace Naps banner with a cream-and-white dog and the line A quiet way to nap with Ace, wherever you are"
+url: "https://github.com/kevinlogan94/ace-naps-posts"
+slug: "ace-naps"
+youtubeId: "ClAkKkYFMIg"
+youtubeLabel: "Play: Cozy Halloween loop (3 hours)"
+tags: ["Instagram API", "Phaser", "YouTube"]
+date: "2026-07-05"
+links:
+  - label: Follow on Instagram
+    icon: i-simple-icons-instagram
+    to: https://www.instagram.com/ace_naps/
+  - label: Watch on YouTube
+    icon: i-simple-icons-youtube
+    to: https://www.youtube.com/@ace_naps
+  - label: Uploader on GitHub
+    icon: i-simple-icons-github
+    to: https://github.com/kevinlogan94/ace-naps-posts
+  - label: Loops on GitHub
+    icon: i-simple-icons-github
+    to: https://github.com/kevinlogan94/ace-naps-loops
+summary:
+  stack: "Nuxt, Supabase, Instagram API, Phaser"
+  status: "Live on Instagram and YouTube. Uploader is invite-only."
+  code: "Public GitHub for the uploader and the loops"
+# Reorder this list to change the detail page. Built-in block: hero. Other ids map to sections.
+blocks:
+  - hero
+  - why
+  - uploader
+  - loops
+  - how-it-works
+  - tech-stack
+  - status
+sections:
+  - id: why
+    title: Why it exists
+    body: People kept asking how they could nap with Ace. I get to be with him every day, and I wanted to share that with everyone.
+  - id: uploader
+    title: "Part 1: the uploader"
+    body: Friends and family I invite can photograph Ace napping and upload photos from their phone. The photos land in a Supabase queue. A scheduled cron job publishes them to Instagram @ace_naps through the Instagram API.
+    notes: "Nuxt for the invite-only upload UI. Supabase for the queue and the scheduled job. Instagram API for the daily post."
+    images:
+      - src: "/images/projects/ace-naps/ace-nap-1.webp"
+        alt: "Ace, a fluffy cream-and-white dog, asleep curled up on a gray couch, his head resting on a black-and-white pillow with a green blanket behind him"
+        href: https://www.instagram.com/ace_naps/
+        width: 1200
+        height: 900
+      - src: "/images/projects/ace-naps/ace-nap-2.webp"
+        alt: "Ace, a fluffy cream-and-white dog, napping curled up on a soft beige carpet with his eyes closed and the tip of his tongue peeking out"
+        href: https://www.instagram.com/ace_naps/
+        width: 900
+        height: 1200
+      - src: "/images/projects/ace-naps/ace-nap-3.webp"
+        alt: "Ace, a fluffy cream-and-white dog, curled up asleep in a patch of sunlight on a navy patterned blanket, the tip of his tongue poking out"
+        href: https://www.instagram.com/ace_naps/
+        width: 900
+        height: 1200
+  - id: loops
+    title: "Part 2: the loops"
+    body: "Phaser stitches Ace's pixel-art animations into 15-minute loops, then those loops go up on YouTube. The Halloween one below is a longer cut: three hours of a cozy fall evening."
+    youtubeId: "ClAkKkYFMIg"
+    youtubeLabel: "Play: Cozy Halloween loop (3 hours)"
+  - id: how-it-works
+    title: How it works
+    columns:
+      - title: The uploader
+        steps:
+          - Photograph Ace napping
+          - Friends and family I invite upload from a phone
+          - Photos wait in a queue
+          - A cron job posts to Instagram
+      - title: The loops
+        steps:
+          - Pixel-art animations of Ace
+          - Phaser stitches them into a 15-minute loop
+          - Rendered and uploaded to YouTube
+  - id: tech-stack
+    title: Tech stack
+    items:
+      - Nuxt
+      - Supabase
+      - Instagram API
+      - Phaser
+      - YouTube
+  - id: status
+    title: Where things stand
+    body: Ace is napping on Instagram, and the loops are up on YouTube. The uploader stays invite-only for people I share it with. The code for both parts is on GitHub.
+    showLinks: true
