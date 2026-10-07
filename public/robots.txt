@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kevinlogan.com/sitemap.xml
+Sitemap: https://kevinmlogan.com/sitemap.xml
