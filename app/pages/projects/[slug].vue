@@ -40,7 +40,7 @@ useSeoMeta({
 <template>
   <UPage v-if="project">
     <template
-      v-for="block in blocks"
+      v-for="(block, blockIndex) in blocks"
       :key="block"
     >
       <UPageHero
@@ -50,12 +50,12 @@ useSeoMeta({
         orientation="horizontal"
         :ui="{
           title: '!mx-0 text-left text-xl sm:text-5xl lg:text-5xl',
-          description: '!mx-0 text-left text-md md:text-base',
+          description: '!mx-0 max-w-prose text-left text-md md:text-base',
           links: 'justify-start'
         }"
       >
         <template #links>
-          <div class="flex flex-col gap-6">
+          <div class="flex max-w-prose flex-col gap-6">
             <ProjectLinks
               v-if="project.links?.length"
               :links="project.links"
@@ -87,32 +87,34 @@ useSeoMeta({
         </template>
         <img
           :src="project.image"
-          :alt="project.title"
-          class="w-full rounded-lg object-cover"
+          :alt="project.imageAlt || project.title"
+          class="aspect-[4/3] w-full rounded-lg object-cover"
+          width="1200"
+          height="900"
         >
       </UPageHero>
       <UPageSection
         v-else-if="sectionById[block]"
-        :ui="{ container: '!pt-0' }"
+        :ui="{ container: blockIndex === 1 ? '!pt-0 !pb-12 sm:!pb-16' : '!py-12 sm:!py-16' }"
       >
-        <h2 class="text-2xl font-bold text-highlighted">
+        <h2 class="text-left text-xl font-medium text-highlighted lg:text-2xl">
           {{ sectionById[block].title }}
         </h2>
         <p
           v-if="sectionById[block].body"
-          class="mt-4 text-muted"
+          class="mt-3 max-w-prose text-pretty text-muted"
         >
           {{ sectionById[block].body }}
         </p>
         <p
           v-if="sectionById[block].notes"
-          class="mt-3 text-sm text-muted"
+          class="mt-3 max-w-prose text-sm text-pretty text-muted"
         >
           {{ sectionById[block].notes }}
         </p>
         <div
           v-if="sectionById[block].images?.length"
-          class="mt-6 grid grid-cols-1 items-start gap-4 sm:grid-cols-3"
+          class="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3"
         >
           <a
             v-for="(image, imageIndex) in sectionById[block].images"
@@ -121,7 +123,7 @@ useSeoMeta({
             target="_blank"
             rel="noopener"
             :aria-label="`${image.alt} (opens in a new tab)`"
-            class="block overflow-hidden rounded-lg bg-muted"
+            class="block aspect-square overflow-hidden rounded-lg bg-muted outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-(--ui-bg)"
           >
             <NuxtImg
               :src="image.src"
@@ -130,14 +132,13 @@ useSeoMeta({
               :height="image.height"
               loading="lazy"
               sizes="100vw sm:33vw"
-              class="h-auto w-full"
-              :style="image.width && image.height ? { aspectRatio: `${image.width} / ${image.height}` } : undefined"
+              class="size-full object-cover"
             />
           </a>
         </div>
         <div
           v-if="sectionById[block].youtubeId"
-          class="mt-6"
+          class="mt-8"
         >
           <YoutubeLite
             :video-id="sectionById[block].youtubeId"
@@ -146,13 +147,14 @@ useSeoMeta({
         </div>
         <div
           v-if="sectionById[block].columns?.length"
-          class="mt-6 grid gap-8 md:grid-cols-2"
+          class="mt-8 grid grid-cols-1 items-stretch gap-6 md:grid-cols-2"
         >
           <div
             v-for="column in sectionById[block].columns"
             :key="column.title"
+            class="rounded-lg bg-muted/50 p-5 sm:p-6"
           >
-            <h3 class="text-lg font-semibold text-highlighted">
+            <h3 class="text-lg font-medium text-highlighted">
               {{ column.title }}
             </h3>
             <ol class="mt-3 list-decimal space-y-2 pl-5 text-muted">

@@ -105,33 +105,27 @@ useSeoMeta({
             </span>
           </template>
           <template #footer>
-            <div class="flex flex-col gap-3">
-              <ProjectLinks
-                v-if="project.links?.length"
-                :links="project.links"
+            <span
+              v-if="project.slug"
+              class="text-sm text-primary flex items-center"
+            >
+              View Project
+              <UIcon
+                name="i-lucide-arrow-right"
+                class="size-4 text-primary opacity-0 transition-all group-hover:translate-x-1 group-hover:opacity-100 motion-reduce:transition-none motion-reduce:opacity-100"
               />
-              <span
-                v-if="project.slug"
-                class="text-sm text-primary flex items-center"
-              >
-                View Project
-                <UIcon
-                  name="i-lucide-arrow-right"
-                  class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
-                />
-              </span>
-              <ULink
-                v-else-if="project.url"
-                :to="project.url"
-                class="text-sm text-primary flex items-center"
-              >
-                View Project
-                <UIcon
-                  name="i-lucide-arrow-right"
-                  class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
-                />
-              </ULink>
-            </div>
+            </span>
+            <ULink
+              v-else-if="project.url"
+              :to="project.url"
+              class="text-sm text-primary flex items-center"
+            >
+              View Project
+              <UIcon
+                name="i-lucide-arrow-right"
+                class="size-4 text-primary opacity-0 transition-all group-hover:translate-x-1 group-hover:opacity-100 motion-reduce:transition-none motion-reduce:opacity-100"
+              />
+            </ULink>
           </template>
           <img
             :src="project.image"
