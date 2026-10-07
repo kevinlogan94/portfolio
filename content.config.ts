@@ -82,7 +82,15 @@ export default defineContentConfig({
         image: z.string().nonempty().editor({ input: 'media' }),
         url: z.string().nonempty(),
         tags: z.array(z.string()),
-        date: z.date()
+        date: z.date(),
+        slug: z.string().optional(),
+        links: z.array(z.object({
+          label: z.string(),
+          icon: z.string(),
+          to: z.string()
+        })).optional(),
+        body: z.string().optional(),
+        youtubeId: z.string().optional()
       })
     }),
     blog: defineCollection({

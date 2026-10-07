@@ -27,6 +27,10 @@ function extractYear(date: unknown): number {
   return 0
 }
 
+function projectHref(project: { slug?: string, url?: string }) {
+  return project.slug ? `/projects/${project.slug}` : (project.url || undefined)
+}
+
 const sortedProjects = computed(() => {
   return (projects.value || []).slice().sort((a: any, b: any) => extractYear(b.date) - extractYear(a.date))
 })
@@ -86,7 +90,7 @@ useSeoMeta({
         <UPageCard
           :title="project.title"
           :description="project.description"
-          :to="project.url || undefined"
+          :to="projectHref(project)"
           orientation="horizontal"
           variant="naked"
           :reverse="index % 2 === 1"
@@ -101,17 +105,43 @@ useSeoMeta({
             </span>
           </template>
           <template #footer>
-            <ULink
-              v-if="project.url"
-              :to="project.url"
-              class="text-sm text-primary flex items-center"
-            >
-              View Project
-              <UIcon
-                name="i-lucide-arrow-right"
-                class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
-              />
-            </ULink>
+            <div class="flex flex-col gap-3">
+              <div
+                v-if="project.links?.length"
+                class="relative z-10 flex flex-wrap items-center gap-2"
+                @click.stop
+              >
+                <UButton
+                  v-for="link in project.links"
+                  :key="link.to"
+                  v-bind="{ size: 'xs', color: 'neutral', variant: 'ghost', ...link }"
+                  target="_blank"
+                  rel="noopener"
+                  :aria-label="`${link.label} (opens in a new tab)`"
+                />
+              </div>
+              <span
+                v-if="project.slug"
+                class="text-sm text-primary flex items-center"
+              >
+                View Project
+                <UIcon
+                  name="i-lucide-arrow-right"
+                  class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
+                />
+              </span>
+              <ULink
+                v-else-if="project.url"
+                :to="project.url"
+                class="text-sm text-primary flex items-center"
+              >
+                View Project
+                <UIcon
+                  name="i-lucide-arrow-right"
+                  class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
+                />
+              </ULink>
+            </div>
           </template>
           <img
             :src="project.image"

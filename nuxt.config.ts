@@ -35,7 +35,8 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/'
+        '/',
+        '/projects/ace-naps'
       ],
       crawlLinks: true
     }

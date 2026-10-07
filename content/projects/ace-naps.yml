@@ -1,0 +1,26 @@
+title: "Ace Naps"
+description: "A phone-first queue for nap photos of Ace, plus pixel-art loops on YouTube. One photo posts to @ace_naps every morning. The loops are quiet scenes made to leave on."
+image: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/aceNapsPostsBanner.png"
+url: "https://github.com/kevinlogan94/ace-naps-posts"
+slug: "ace-naps"
+youtubeId: "ClAkKkYFMIg"
+tags: ["Nuxt", "Supabase", "Instagram API", "Automation"]
+date: "2026-07-05"
+links:
+  - label: Instagram
+    icon: i-simple-icons-instagram
+    to: https://www.instagram.com/ace_naps/
+  - label: YouTube
+    icon: i-simple-icons-youtube
+    to: https://www.youtube.com/@ace_naps
+  - label: GitHub
+    icon: i-simple-icons-github
+    to: https://github.com/kevinlogan94/ace-naps-posts
+body: |
+  ## How the posts work
+
+  Open the upload page on your phone, pick one or more photos, and send them. They go into a queue. Each morning at 10:00 AM Eastern, the oldest photo posts to @ace_naps with an Ace-voice caption and the same hashtags every time. The upload app is Nuxt. The queue and the daily post run on Supabase.
+
+  ## How the loops are made
+
+  The YouTube videos are pixel-art loops of Ace, a real dog, settling into a scene. This Halloween loop is a cozy fall evening: a glowing cottage, pumpkins, and a few visitors in the trees. They are made for sleep, or just leaving on.
