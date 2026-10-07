@@ -112,7 +112,7 @@ useSeoMeta({
         </p>
         <div
           v-if="sectionById[block].images?.length"
-          class="mt-6 grid gap-4 sm:grid-cols-3"
+          class="mt-6 grid grid-cols-1 items-start gap-4 sm:grid-cols-3"
         >
           <a
             v-for="(image, imageIndex) in sectionById[block].images"
@@ -121,12 +121,16 @@ useSeoMeta({
             target="_blank"
             rel="noopener"
             :aria-label="`${image.alt} (opens in a new tab)`"
-            class="block overflow-hidden rounded-lg"
+            class="block overflow-hidden rounded-lg bg-muted"
           >
             <img
               :src="image.src"
               :alt="image.alt"
-              class="w-full object-cover"
+              :width="image.width"
+              :height="image.height"
+              loading="lazy"
+              class="h-auto w-full"
+              :style="image.width && image.height ? { aspectRatio: `${image.width} / ${image.height}` } : undefined"
             >
           </a>
         </div>

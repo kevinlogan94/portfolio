@@ -105,7 +105,9 @@ export default defineContentConfig({
           images: z.array(z.object({
             src: z.string().editor({ input: 'media' }),
             alt: z.string(),
-            href: z.string()
+            href: z.string(),
+            width: z.number().optional(),
+            height: z.number().optional()
           })).optional(),
           youtubeId: z.string().optional(),
           youtubeLabel: z.string().optional(),
