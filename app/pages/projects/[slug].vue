@@ -14,12 +14,18 @@ if (!project.value) {
   })
 }
 
-const playing = ref(false)
-const youtubeSrc = computed(() => {
-  return `https://www.youtube-nocookie.com/embed/${project.value?.youtubeId}?autoplay=1`
+const sectionById = computed(() => {
+  return Object.fromEntries((project.value?.sections || []).map(section => [section.id, section]))
 })
-const thumbnailSrc = computed(() => {
-  return `https://i.ytimg.com/vi/${project.value?.youtubeId}/hqdefault.jpg`
+
+const blocks = computed(() => {
+  if (project.value?.blocks?.length) {
+    return project.value.blocks
+  }
+  return [
+    'hero',
+    ...(project.value?.sections || []).map(section => section.id)
+  ]
 })
 
 useSeoMeta({
@@ -33,75 +39,148 @@ useSeoMeta({
 
 <template>
   <UPage v-if="project">
-    <UPageHero
-      :title="project.title"
-      :description="project.description"
-      :ui="{
-        title: '!mx-0 text-left text-xl sm:text-5xl lg:text-5xl',
-        description: '!mx-0 text-left text-md md:text-base',
-        links: 'justify-start'
-      }"
+    <template
+      v-for="block in blocks"
+      :key="block"
     >
-      <template #links>
-        <div
-          v-if="project.links?.length"
-          class="flex flex-wrap items-center gap-2"
+      <UPageHero
+        v-if="block === 'hero'"
+        :title="project.title"
+        :description="project.description"
+        orientation="horizontal"
+        :ui="{
+          title: '!mx-0 text-left text-xl sm:text-5xl lg:text-5xl',
+          description: '!mx-0 text-left text-md md:text-base',
+          links: 'justify-start'
+        }"
+      >
+        <template #links>
+          <div class="flex flex-col gap-6">
+            <ProjectLinks
+              v-if="project.links?.length"
+              :links="project.links"
+            />
+            <dl
+              v-if="project.summary"
+              class="grid grid-cols-1 gap-4 text-sm sm:grid-cols-3"
+            >
+              <div>
+                <dt class="text-muted">
+                  Stack
+                </dt>
+                <dd>{{ project.summary.stack }}</dd>
+              </div>
+              <div>
+                <dt class="text-muted">
+                  Status
+                </dt>
+                <dd>{{ project.summary.status }}</dd>
+              </div>
+              <div>
+                <dt class="text-muted">
+                  Code
+                </dt>
+                <dd>{{ project.summary.code }}</dd>
+              </div>
+            </dl>
+          </div>
+        </template>
+        <img
+          :src="project.image"
+          :alt="project.title"
+          class="w-full rounded-lg object-cover"
         >
-          <UButton
-            v-for="link in project.links"
-            :key="link.to"
-            v-bind="{ size: 'xs', color: 'neutral', variant: 'ghost', ...link }"
+      </UPageHero>
+      <UPageSection
+        v-else-if="sectionById[block]"
+        :ui="{ container: '!pt-0' }"
+      >
+        <h2 class="text-2xl font-bold text-highlighted">
+          {{ sectionById[block].title }}
+        </h2>
+        <p
+          v-if="sectionById[block].body"
+          class="mt-4 text-muted"
+        >
+          {{ sectionById[block].body }}
+        </p>
+        <p
+          v-if="sectionById[block].notes"
+          class="mt-3 text-sm text-muted"
+        >
+          {{ sectionById[block].notes }}
+        </p>
+        <div
+          v-if="sectionById[block].images?.length"
+          class="mt-6 grid gap-4 sm:grid-cols-3"
+        >
+          <a
+            v-for="(image, imageIndex) in sectionById[block].images"
+            :key="`${image.src}-${imageIndex}`"
+            :href="image.href"
             target="_blank"
             rel="noopener"
-            :aria-label="`${link.label} (opens in a new tab)`"
+            :aria-label="`${image.alt} (opens in a new tab)`"
+            class="block overflow-hidden rounded-lg"
+          >
+            <img
+              :src="image.src"
+              :alt="image.alt"
+              class="w-full object-cover"
+            >
+          </a>
+        </div>
+        <div
+          v-if="sectionById[block].youtubeId"
+          class="mt-6"
+        >
+          <YoutubeLite
+            :video-id="sectionById[block].youtubeId"
+            :play-label="sectionById[block].youtubeLabel || project.youtubeLabel || `Play ${project.title} video`"
           />
         </div>
-      </template>
-    </UPageHero>
-    <UPageSection
-      :ui="{
-        container: '!pt-0'
-      }"
-    >
-      <div
-        v-if="project.youtubeId"
-        class="relative aspect-video overflow-hidden rounded-lg bg-muted"
-      >
-        <iframe
-          v-if="playing"
-          class="absolute inset-0 size-full"
-          :src="youtubeSrc"
-          :title="project.title"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        />
-        <button
-          v-else
-          type="button"
-          class="absolute inset-0 size-full cursor-pointer"
-          :aria-label="`Play ${project.title} video`"
-          @click="playing = true"
+        <div
+          v-if="sectionById[block].columns?.length"
+          class="mt-6 grid gap-8 md:grid-cols-2"
         >
-          <img
-            :src="thumbnailSrc"
-            :alt="`${project.title} video thumbnail`"
-            class="size-full object-cover"
+          <div
+            v-for="column in sectionById[block].columns"
+            :key="column.title"
           >
-          <span class="absolute inset-0 flex items-center justify-center bg-black/40">
-            <span class="flex size-16 items-center justify-center rounded-full bg-white text-black">
-              <UIcon
-                name="i-lucide-play"
-                class="size-8 translate-x-0.5"
-              />
-            </span>
-          </span>
-        </button>
-      </div>
-      <MDC
-        v-if="project.body"
-        class="mt-10 prose prose-neutral dark:prose-invert max-w-none"
-        :value="project.body"
-      />
-    </UPageSection>
+            <h3 class="text-lg font-semibold text-highlighted">
+              {{ column.title }}
+            </h3>
+            <ol class="mt-3 list-decimal space-y-2 pl-5 text-muted">
+              <li
+                v-for="step in column.steps"
+                :key="step"
+              >
+                {{ step }}
+              </li>
+            </ol>
+          </div>
+        </div>
+        <ul
+          v-if="sectionById[block].items?.length"
+          class="mt-4 flex flex-wrap gap-2"
+        >
+          <li
+            v-for="item in sectionById[block].items"
+            :key="item"
+          >
+            <UBadge
+              color="neutral"
+              variant="subtle"
+              :label="item"
+            />
+          </li>
+        </ul>
+        <ProjectLinks
+          v-if="sectionById[block].showLinks && project.links?.length"
+          class="mt-6"
+          :links="project.links"
+        />
+      </UPageSection>
+    </template>
   </UPage>
 </template>

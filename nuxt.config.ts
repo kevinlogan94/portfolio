@@ -30,6 +30,12 @@ export default defineNuxtConfig({
     }
   ],
 
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag: string) => tag === 'lite-youtube'
+    }
+  },
+
   compatibilityDate: '2024-11-01',
 
   nitro: {

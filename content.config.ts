@@ -89,8 +89,33 @@ export default defineContentConfig({
           icon: z.string(),
           to: z.string()
         })).optional(),
-        body: z.string().optional(),
-        youtubeId: z.string().optional()
+        youtubeId: z.string().optional(),
+        youtubeLabel: z.string().optional(),
+        blocks: z.array(z.string()).optional(),
+        summary: z.object({
+          stack: z.string(),
+          status: z.string(),
+          code: z.string()
+        }).optional(),
+        sections: z.array(z.object({
+          id: z.string(),
+          title: z.string(),
+          body: z.string().optional(),
+          notes: z.string().optional(),
+          images: z.array(z.object({
+            src: z.string().editor({ input: 'media' }),
+            alt: z.string(),
+            href: z.string()
+          })).optional(),
+          youtubeId: z.string().optional(),
+          youtubeLabel: z.string().optional(),
+          columns: z.array(z.object({
+            title: z.string(),
+            steps: z.array(z.string())
+          })).optional(),
+          items: z.array(z.string()).optional(),
+          showLinks: z.boolean().optional()
+        })).optional()
       })
     }),
     blog: defineCollection({

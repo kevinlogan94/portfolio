@@ -1,26 +1,84 @@
 title: "Ace Naps"
-description: "A phone-first queue for nap photos of Ace, plus pixel-art loops on YouTube. One photo posts to @ace_naps every morning. The loops are quiet scenes made to leave on."
+description: "A quiet way to nap with Ace, wherever you are."
 image: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/aceNapsPostsBanner.png"
 url: "https://github.com/kevinlogan94/ace-naps-posts"
 slug: "ace-naps"
 youtubeId: "ClAkKkYFMIg"
-tags: ["Nuxt", "Supabase", "Instagram API", "Automation"]
+youtubeLabel: "Play: Cozy Halloween loop (3 hours)"
+tags: ["Instagram API", "Phaser", "YouTube"]
 date: "2026-07-05"
 links:
-  - label: Instagram
+  - label: Follow on Instagram
     icon: i-simple-icons-instagram
     to: https://www.instagram.com/ace_naps/
-  - label: YouTube
+  - label: Watch on YouTube
     icon: i-simple-icons-youtube
     to: https://www.youtube.com/@ace_naps
-  - label: GitHub
+  - label: Uploader on GitHub
     icon: i-simple-icons-github
     to: https://github.com/kevinlogan94/ace-naps-posts
-body: |
-  ## How the posts work
-
-  Open the upload page on your phone, pick one or more photos, and send them. They go into a queue. Each morning at 10:00 AM Eastern, the oldest photo posts to @ace_naps with an Ace-voice caption and the same hashtags every time. The upload app is Nuxt. The queue and the daily post run on Supabase.
-
-  ## How the loops are made
-
-  The YouTube videos are pixel-art loops of Ace, a real dog, settling into a scene. This Halloween loop is a cozy fall evening: a glowing cottage, pumpkins, and a few visitors in the trees. They are made for sleep, or just leaving on.
+  - label: Loops on GitHub
+    icon: i-simple-icons-github
+    to: https://github.com/kevinlogan94/ace-naps-loops
+summary:
+  stack: "Nuxt, Supabase, Instagram API, Phaser"
+  status: "Live on Instagram and YouTube. Uploader is invite-only."
+  code: "Public GitHub for the uploader and the loops"
+# Reorder this list to change the detail page. Built-in block: hero. Other ids map to sections.
+blocks:
+  - hero
+  - why
+  - uploader
+  - loops
+  - how-it-works
+  - tech-stack
+  - status
+sections:
+  - id: why
+    title: Why it exists
+    body: People kept asking how they could nap with Ace. Kevin gets to be with him every day and wanted to share that with everyone.
+  - id: uploader
+    title: "Part 1: the uploader"
+    body: Friends and family Kevin invites can photograph Ace napping and upload photos from their phone. The photos land in a Supabase queue. A scheduled cron job publishes them to Instagram @ace_naps through the Instagram API.
+    notes: "Nuxt for the invite-only upload UI. Supabase for the queue and the scheduled job. Instagram API for the daily post."
+    images:
+      - src: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/aceNapsPostsBanner.png"
+        alt: "[Placeholder 1 of 3] Ace napping. Final photo pending."
+        href: https://www.instagram.com/ace_naps/
+      - src: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/aceNapsPostsBanner.png"
+        alt: "[Placeholder 2 of 3] Ace napping. Final photo pending."
+        href: https://www.instagram.com/ace_naps/
+      - src: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/aceNapsPostsBanner.png"
+        alt: "[Placeholder 3 of 3] Ace napping. Final photo pending."
+        href: https://www.instagram.com/ace_naps/
+  - id: loops
+    title: "Part 2: the loops"
+    body: Phaser stitches Ace's pixel-art animations into 15-minute loops, then those loops go up on YouTube. The Halloween one below is a longer cut: three hours of a cozy fall evening.
+    youtubeId: "ClAkKkYFMIg"
+    youtubeLabel: "Play: Cozy Halloween loop (3 hours)"
+  - id: how-it-works
+    title: How it works
+    columns:
+      - title: Uploader
+        steps:
+          - Photograph Ace napping
+          - Friends and family Kevin invites upload from a phone
+          - Photos wait in a queue
+          - A cron job posts to Instagram
+      - title: Loops
+        steps:
+          - Pixel-art animations of Ace
+          - Phaser stitches them into a 15-minute loop
+          - Rendered and uploaded to YouTube
+  - id: tech-stack
+    title: Tech stack
+    items:
+      - Nuxt
+      - Supabase
+      - Instagram API
+      - Phaser
+      - YouTube
+  - id: status
+    title: Where things stand
+    body: Ace is napping on Instagram, and the loops are up on YouTube. The uploader stays invite-only for people Kevin shares it with. The code for both parts is on GitHub.
+    showLinks: true

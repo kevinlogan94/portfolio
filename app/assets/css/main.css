@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+@import "lite-youtube-embed/src/lite-yt-embed.css";
 
 @source "../../../content/**/*";
 
