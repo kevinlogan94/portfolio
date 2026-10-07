@@ -1,6 +1,7 @@
 title: "Ace Naps"
 description: "A quiet way to nap with Ace, wherever you are."
 image: "https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/projects/aceNapsPostsBanner.png"
+imageAlt: "Ace, a fluffy cream-and-white dog, napping on a couch"
 url: "https://github.com/kevinlogan94/ace-naps-posts"
 slug: "ace-naps"
 youtubeId: "ClAkKkYFMIg"
@@ -36,10 +37,10 @@ blocks:
 sections:
   - id: why
     title: Why it exists
-    body: People kept asking how they could nap with Ace. Kevin gets to be with him every day and wanted to share that with everyone.
+    body: People kept asking how they could nap with Ace. I get to be with him every day, and I wanted to share that with everyone.
   - id: uploader
     title: "Part 1: the uploader"
-    body: Friends and family Kevin invites can photograph Ace napping and upload photos from their phone. The photos land in a Supabase queue. A scheduled cron job publishes them to Instagram @ace_naps through the Instagram API.
+    body: Friends and family I invite can photograph Ace napping and upload photos from their phone. The photos land in a Supabase queue. A scheduled cron job publishes them to Instagram @ace_naps through the Instagram API.
     notes: "Nuxt for the invite-only upload UI. Supabase for the queue and the scheduled job. Instagram API for the daily post."
     images:
       - src: "/images/projects/ace-naps/ace-nap-1.webp"
@@ -59,19 +60,19 @@ sections:
         height: 1200
   - id: loops
     title: "Part 2: the loops"
-    body: Phaser stitches Ace's pixel-art animations into 15-minute loops, then those loops go up on YouTube. The Halloween one below is a longer cut: three hours of a cozy fall evening.
+    body: "Phaser stitches Ace's pixel-art animations into 15-minute loops, then those loops go up on YouTube. The Halloween one below is a longer cut: three hours of a cozy fall evening."
     youtubeId: "ClAkKkYFMIg"
     youtubeLabel: "Play: Cozy Halloween loop (3 hours)"
   - id: how-it-works
     title: How it works
     columns:
-      - title: Uploader
+      - title: The uploader
         steps:
           - Photograph Ace napping
-          - Friends and family Kevin invites upload from a phone
+          - Friends and family I invite upload from a phone
           - Photos wait in a queue
           - A cron job posts to Instagram
-      - title: Loops
+      - title: The loops
         steps:
           - Pixel-art animations of Ace
           - Phaser stitches them into a 15-minute loop
@@ -86,5 +87,5 @@ sections:
       - YouTube
   - id: status
     title: Where things stand
-    body: Ace is napping on Instagram, and the loops are up on YouTube. The uploader stays invite-only for people Kevin shares it with. The code for both parts is on GitHub.
+    body: Ace is napping on Instagram, and the loops are up on YouTube. The uploader stays invite-only for people I share it with. The code for both parts is on GitHub.
     showLinks: true
