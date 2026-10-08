@@ -10,7 +10,7 @@ defineProps<{
 
 <template>
   <div
-    class="relative z-10 flex flex-wrap gap-2"
+    class="relative z-10 grid grid-cols-1 gap-2 min-[480px]:grid-cols-2 lg:flex lg:flex-wrap"
     @click.stop
   >
     <UButton
@@ -24,7 +24,7 @@ defineProps<{
       target="_blank"
       rel="noopener"
       :aria-label="`${link.label} (opens in a new tab)`"
-      class="min-h-11 w-full justify-center sm:w-auto"
+      class="min-h-11 justify-center"
     >
       <span>{{ link.label }}</span>
       <UIcon

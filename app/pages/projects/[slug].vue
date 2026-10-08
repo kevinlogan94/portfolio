@@ -63,7 +63,7 @@ useSeoMeta({
             />
             <dl
               v-if="project.summary"
-              class="grid grid-cols-1 gap-4 text-sm sm:grid-cols-3"
+              class="grid grid-cols-1 gap-4 text-sm"
             >
               <div>
                 <dt class="text-muted">
