@@ -1,4 +1,11 @@
 export default defineAppConfig({
+  banner: {
+    enabled: true,
+    id: 'xals-path-ea-2026-10',
+    title: 'Xal\'s Path, my dark story-driven clicker RPG, is out. Free. No ads.',
+    to: 'https://games.kevinmlogan.com',
+    icon: 'i-lucide-gamepad-2'
+  },
   global: {
     picture: {
       dark: 'https://swdrcvirhtbxlooklceu.supabase.co/storage/v1/object/public/images/2026-profile-blue.jpg',

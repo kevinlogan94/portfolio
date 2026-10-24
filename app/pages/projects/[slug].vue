@@ -49,7 +49,7 @@ useSeoMeta({
         :description="project.description"
         orientation="horizontal"
         :ui="{
-          container: '!py-8 sm:!py-12 lg:!py-16',
+          container: '!pt-4 !pb-8 sm:!pt-8 sm:!pb-12 lg:!pt-10 lg:!pb-16',
           title: '!mx-0 text-left text-xl sm:text-5xl lg:text-5xl',
           description: '!mx-0 max-w-prose text-left text-md md:text-base',
           links: 'justify-start'
