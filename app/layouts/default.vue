@@ -3,7 +3,8 @@
 
 <template>
   <div>
-    <UContainer class="sm:border-x border-default pt-10">
+    <AppPromoBanner />
+    <UContainer class="sm:border-x border-default pt-2">
       <AppHeader :links="navLinks" />
       <slot />
       <AppFooter />

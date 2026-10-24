@@ -77,7 +77,7 @@ const formatDate = (dateString: string) => {
 </script>
 
 <template>
-  <UMain class="mt-20 px-2">
+  <UMain class="mt-8 px-2">
     <UContainer class="relative min-h-screen">
       <UPage v-if="page">
         <ULink

@@ -9,7 +9,7 @@ const coffeeHref = 'https://buymeacoffee.com/kevinmlogan'
 </script>
 
 <template>
-  <div class="fixed top-2 sm:top-4 mx-auto left-1/2 transform -translate-x-1/2 z-10">
+  <div class="sticky top-2 z-10 mx-auto w-fit">
     <UNavigationMenu
       :items="links"
       variant="link"

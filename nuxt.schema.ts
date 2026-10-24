@@ -2,6 +2,48 @@ import { field, group } from '@nuxt/content/preview'
 
 export default defineNuxtSchema({
   appConfig: {
+    banner: group({
+      title: 'Promo banner',
+      description: 'Top-of-page announcement banner.',
+      icon: 'lucide:gamepad-2',
+      fields: {
+        enabled: field({
+          type: 'boolean',
+          title: 'Enabled',
+          description: 'Show the promo banner. When false, the banner is not rendered.',
+          icon: 'lucide:eye',
+          default: true
+        }),
+        id: field({
+          type: 'string',
+          title: 'Id',
+          description: 'Unique id used with UBanner close to persist dismissal.',
+          icon: 'lucide:fingerprint',
+          default: 'xals-path-ea-2026-10'
+        }),
+        title: field({
+          type: 'string',
+          title: 'Title',
+          description: 'Desktop banner copy.',
+          icon: 'lucide:type',
+          default: 'Xal\'s Path, my dark story-driven clicker RPG, is out. Free. No ads.'
+        }),
+        to: field({
+          type: 'string',
+          title: 'Link',
+          description: 'Banner destination URL.',
+          icon: 'lucide:link',
+          default: 'https://games.kevinmlogan.com'
+        }),
+        icon: field({
+          type: 'icon',
+          title: 'Icon',
+          description: 'Icon displayed in the banner.',
+          icon: 'lucide:gamepad-2',
+          default: 'i-lucide-gamepad-2'
+        })
+      }
+    }),
     global: group({
       title: 'Website',
       description: 'Global website configuration',
