@@ -25,7 +25,7 @@ export default defineAppConfig({
   uiPro: {
     pageHero: {
       slots: {
-        container: 'pt-8 pb-18 sm:pt-12 sm:pb-24 lg:pt-16 lg:pb-32',
+        container: 'py-18 sm:py-24 lg:py-32',
         title: 'mx-auto max-w-xl text-pretty text-3xl sm:text-4xl lg:text-5xl',
         description: 'mt-2 text-md mx-auto max-w-2xl text-pretty sm:text-md text-muted'
       }

@@ -24,10 +24,10 @@ const closeButton = { 'aria-label': 'Dismiss announcement' } as ButtonProps
     :close="closeButton"
     :actions="actions"
     :ui="{
-      root: 'relative z-50 w-full !bg-[#171717] !text-[#e5e5e5]',
+      root: 'relative z-50 w-full !bg-[#171717] hover:!bg-[#171717] !text-[#e5e5e5]',
       container: 'flex items-center justify-between gap-3 min-h-10 h-auto sm:h-12 py-1.5',
       icon: 'size-4.5 shrink-0 text-[#e5e5e5] pointer-events-none',
-      title: 'flex min-w-0 items-center gap-2 text-sm font-medium text-[#e5e5e5]',
+      title: 'flex min-w-0 items-center gap-2 overflow-visible! whitespace-normal! text-sm font-medium text-[#e5e5e5]',
       close: 'text-neutral-400 hover:bg-neutral-800 hover:text-white focus-visible:bg-neutral-800 -me-1.5 lg:me-0'
     }"
   >
