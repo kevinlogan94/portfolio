@@ -10,6 +10,8 @@ const actions = computed<ButtonProps[]>(() => [{
   size: 'xs',
   class: 'relative z-10 rounded-full bg-[#60a5fa] font-semibold text-[#0a0a0a] hover:bg-[#93c5fd]'
 }])
+
+const closeButton = { 'aria-label': 'Dismiss announcement' } as ButtonProps
 </script>
 
 <template>
@@ -19,7 +21,7 @@ const actions = computed<ButtonProps[]>(() => [{
     :to="banner.to"
     :icon="banner.icon"
     color="neutral"
-    :close="{ 'aria-label': 'Dismiss announcement' }"
+    :close="closeButton"
     :actions="actions"
     :ui="{
       root: 'relative z-50 w-full !bg-[#171717] !text-[#e5e5e5]',
