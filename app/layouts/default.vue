@@ -3,10 +3,12 @@
 
 <template>
   <div>
-    <AppPromoBanner />
-    <UContainer class="sm:border-x border-default pt-2">
+    <UContainer class="sm:border-x border-default">
       <div class="-mx-4 sm:-mx-6 lg:-mx-8">
-        <AppHeader :links="navLinks" />
+        <AppPromoBanner />
+        <div class="pt-2">
+          <AppHeader :links="navLinks" />
+        </div>
       </div>
       <slot />
       <AppFooter />
