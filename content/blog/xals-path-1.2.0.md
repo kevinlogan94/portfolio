@@ -83,6 +83,6 @@ The Wisp might be the most transformed of the three. What was once a floating he
 
 ---
 
-## What's Next
+## Play it
 
-For a fuller then-vs-now look at the remaster roster, backgrounds, and Xal's expressions, see the [Art & Story Archive](/blog/xals-path-art-and-story-archive).
+v1.2.0 is in early access at [games.kevinmlogan.com](https://games.kevinmlogan.com).
