@@ -100,9 +100,19 @@ useSeoMeta({
           }"
         >
           <template #leading>
-            <span class="text-sm text-muted">
-              {{ extractYear(project.date) }}
-            </span>
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="text-sm text-muted">
+                {{ extractYear(project.date) }}
+              </span>
+              <UBadge
+                v-if="project.award"
+                color="warning"
+                variant="subtle"
+                size="sm"
+                icon="i-lucide-trophy"
+                :label="project.award"
+              />
+            </div>
           </template>
           <template #footer>
             <span

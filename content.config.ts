@@ -84,6 +84,7 @@ export default defineContentConfig({
         url: z.string().nonempty(),
         tags: z.array(z.string()),
         date: z.date(),
+        award: z.string().optional(),
         slug: z.string().optional(),
         links: z.array(z.object({
           label: z.string(),

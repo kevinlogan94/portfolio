@@ -1,0 +1,9 @@
+title: "Alex — 24/7 AI Sales Demo Agent"
+description: "Solves the 'schedule a demo' wall by letting curious visitors jump straight into a live AI product demo."
+image: "/images/projects/sales-demo-agent/banner.jpg"
+imageAlt: "Meet Alex. The 24/7 Sales Demo Agent. Accelerate conversions and capture leads like never before."
+url: "https://github.com/kevinlogan94/sales-demo-agent"
+slug: "sales-demo-agent"
+award: "Best Agent · Fastbreak AI Hackathon"
+tags: ["AI Agents", "ElevenLabs", "Browserbase", "Next.js"]
+date: "2026-11-15"
