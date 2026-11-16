@@ -32,7 +32,15 @@ function projectHref(project: { slug?: string, url?: string }) {
 }
 
 const sortedProjects = computed(() => {
-  return (projects.value || []).slice().sort((a: any, b: any) => extractYear(b.date) - extractYear(a.date))
+  const order = page.value?.order || []
+  const rank = (p: { stem?: string }) => {
+    const idx = order.indexOf(p.stem?.split('/').pop() ?? '')
+    return idx === -1 ? order.length : idx
+  }
+
+  return (projects.value || []).slice().sort((a: any, b: any) => {
+    return rank(a) - rank(b) || extractYear(b.date) - extractYear(a.date)
+  })
 })
 
 const { global } = useAppConfig()
@@ -82,10 +90,10 @@ useSeoMeta({
       <Motion
         v-for="(project, index) in sortedProjects"
         :key="project.title"
-        :initial="{ opacity: 0, transform: 'translateY(10px)' }"
+        :initial="{ opacity: 0, transform: 'translateY(16px)' }"
         :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
-        :transition="{ delay: 0.2 * index }"
-        :in-view-options="{ once: true }"
+        :transition="{ duration: 0.75 }"
+        :in-view-options="{ once: true, amount: 0.2 }"
       >
         <UPageCard
           :title="project.title"

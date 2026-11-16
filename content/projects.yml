@@ -4,3 +4,8 @@ links:
   - label: "Let's talk"
     color: "neutral"
   - label: 'Email me'
+order:
+  - xals-path-1.2.0
+  - tab-constellation
+  - ace-naps
+  - sales-demo-agent

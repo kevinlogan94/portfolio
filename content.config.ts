@@ -139,7 +139,8 @@ export default defineContentConfig({
         { include: 'blog.yml' }
       ],
       schema: z.object({
-        links: z.array(createButtonSchema())
+        links: z.array(createButtonSchema()),
+        order: z.array(z.string()).optional()
       })
     }),
     speaking: defineCollection({
