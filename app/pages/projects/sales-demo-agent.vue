@@ -285,17 +285,17 @@ function isNeighbor(id: ArchNodeId) {
 }
 
 function nodeStateClass(id: ArchNodeId, focusTone: string) {
-  if (!activeNode.value) return 'border-white/15 bg-neutral-900/90 hover:border-white/35'
+  if (!activeNode.value) return 'border-neutral-200 bg-white hover:border-neutral-300 dark:border-white/15 dark:bg-neutral-900/90 dark:hover:border-white/35'
   if (activeNode.value === id) return `-translate-y-0.5 ${focusTone}`
-  if (isNeighbor(id)) return 'border-blue-400/50 bg-neutral-900/95'
-  return 'border-white/10 bg-neutral-900/60 opacity-30'
+  if (isNeighbor(id)) return 'border-blue-500/50 bg-blue-50/50 dark:border-blue-400/50 dark:bg-neutral-900/95'
+  return 'border-neutral-200 bg-white/60 opacity-35 dark:border-white/10 dark:bg-neutral-900/60 dark:opacity-30'
 }
 </script>
 
 <template>
-  <div class="demo-hero-surface relative z-0 -mx-4 -mt-14 flex flex-col pt-14 text-white sm:-mx-6 lg:-mx-8">
+  <div class="demo-hero-surface relative z-0 -mx-4 -mt-14 flex flex-col pt-14 text-neutral-900 sm:-mx-6 lg:-mx-8 dark:text-white">
     <!-- Hero -->
-    <div class="relative z-10 flex min-h-[80dvh] flex-col justify-between overflow-hidden border-b border-white/10">
+    <div class="relative z-10 flex min-h-[80dvh] flex-col justify-between overflow-hidden border-b border-neutral-200 dark:border-white/10">
       <div
         aria-hidden="true"
         class="pointer-events-none absolute inset-0 z-0 overflow-hidden opacity-75"
@@ -358,17 +358,17 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
           size="md"
           icon="i-lucide-trophy"
           label="Winner · Best Agent, Fastbreak AI Hackathon"
-          class="mb-6"
+          class="mb-6 bg-amber-100/90 text-amber-900 ring-amber-400/60 dark:bg-amber-400/10 dark:text-amber-400 dark:ring-amber-400/25"
         />
 
-        <h1 class="text-5xl font-bold tracking-tight text-balance text-white sm:text-7xl">
-          Meet <span class="font-serif font-normal italic text-blue-400">Alex</span>.
-          <span class="mt-2 block text-3xl font-semibold text-neutral-200 sm:text-5xl">
+        <h1 class="text-5xl font-bold tracking-tight text-balance text-neutral-900 sm:text-7xl dark:text-white">
+          Meet <span class="font-serif font-normal italic text-blue-600 dark:text-blue-400">Alex</span>.
+          <span class="mt-2 block text-3xl font-semibold text-neutral-700 sm:text-5xl dark:text-neutral-200">
             The 24/7 Sales Demo Agent.
           </span>
         </h1>
 
-        <p class="mt-6 max-w-xl text-base leading-relaxed text-neutral-300 sm:text-lg">
+        <p class="mt-6 max-w-xl text-base leading-relaxed text-neutral-600 sm:text-lg dark:text-neutral-300">
           Accelerate conversions and capture leads like never before.
         </p>
 
@@ -381,7 +381,7 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
             variant="outline"
             icon="i-simple-icons-github"
             label="View on GitHub"
-            class="rounded-full border-white/20 text-white hover:bg-white/10"
+            class="rounded-full"
           />
         </div>
       </section>
@@ -389,7 +389,7 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
       <div class="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center justify-center pb-8">
         <a
           href="#why-ai-demos"
-          class="inline-flex flex-col items-center gap-2 font-mono text-xs tracking-wider text-neutral-400 uppercase transition-colors hover:text-white"
+          class="inline-flex flex-col items-center gap-2 font-mono text-xs tracking-wider text-neutral-500 uppercase transition-colors hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-white"
         >
           <span>Scroll down</span>
           <UIcon
@@ -403,43 +403,43 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
     <!-- Section 01: Value Funnel -->
     <section
       id="why-ai-demos"
-      class="relative z-10 scroll-mt-6 overflow-hidden border-t border-white/10 py-16"
+      class="relative z-10 scroll-mt-6 overflow-hidden border-t border-neutral-200 py-16 dark:border-white/10"
     >
       <div class="relative z-10 mx-auto w-full max-w-6xl px-6">
         <div class="flex flex-wrap items-end justify-between gap-4">
           <div class="space-y-1.5">
-            <p class="font-mono text-xs font-semibold tracking-wider text-blue-400 uppercase">
+            <p class="font-mono text-xs font-semibold tracking-wider text-blue-600 uppercase dark:text-blue-400">
               01 · Why AI Sales Demos Convert
             </p>
-            <h2 class="text-2xl font-bold tracking-tight text-white">
+            <h2 class="text-2xl font-bold tracking-tight text-neutral-900 dark:text-white">
               Remove &ldquo;Schedule a Demo&rdquo; pressure and convert more buyers
             </h2>
-            <p class="max-w-xl text-sm text-neutral-300">
+            <p class="max-w-xl text-sm text-neutral-600 dark:text-neutral-300">
               Replace calendar walls and sales call pressure with an instant, watch-only AI product tour.
             </p>
           </div>
         </div>
 
         <div
-          class="mt-8 overflow-hidden rounded-2xl border border-blue-400/20 bg-neutral-950/80 p-5 text-white shadow-xl sm:p-7"
+          class="mt-8 overflow-hidden rounded-2xl border border-blue-500/20 bg-white/85 p-5 text-neutral-900 shadow-xl backdrop-blur-sm sm:p-7 dark:border-blue-400/20 dark:bg-neutral-950/80 dark:text-white"
           @mouseleave="activeStage = null"
         >
           <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <!-- Old Way -->
-            <div class="flex flex-col rounded-xl border border-rose-500/25 bg-neutral-900/60 p-4">
-              <div class="mb-4 flex items-center justify-between gap-2 border-b border-white/10 pb-3">
+            <div class="flex flex-col rounded-xl border border-rose-500/25 bg-rose-50/50 p-4 dark:bg-neutral-900/60">
+              <div class="mb-4 flex items-center justify-between gap-2 border-b border-neutral-200 pb-3 dark:border-white/10">
                 <div class="flex items-center gap-2">
-                  <span class="flex size-6 items-center justify-center rounded-full border border-rose-400/40 bg-rose-500/20 text-rose-300">
+                  <span class="flex size-6 items-center justify-center rounded-full border border-rose-500/30 bg-rose-500/15 text-rose-600 dark:border-rose-400/40 dark:bg-rose-500/20 dark:text-rose-300">
                     <UIcon
                       name="i-lucide-x"
                       class="size-3.5"
                     />
                   </span>
-                  <span class="text-sm font-semibold text-white">
+                  <span class="text-sm font-semibold text-neutral-900 dark:text-white">
                     Old Way · &ldquo;Schedule a Demo&rdquo;
                   </span>
                 </div>
-                <span class="rounded-full border border-rose-400/30 bg-rose-500/15 px-2.5 py-0.5 font-mono text-[10px] font-semibold text-rose-200 uppercase">
+                <span class="rounded-full border border-rose-500/30 bg-rose-500/10 px-2.5 py-0.5 font-mono text-[10px] font-semibold text-rose-700 uppercase dark:border-rose-400/30 dark:bg-rose-500/15 dark:text-rose-200">
                   High Drop-Off
                 </span>
               </div>
@@ -469,7 +469,7 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                       <path
                         :d="d"
                         fill="none"
-                        :stroke="isBeamHot(b.from, b.to) ? 'rgba(255,255,255,0.4)' : 'rgba(163,163,163,0.22)'"
+                        :stroke="isBeamHot(b.from, b.to) ? 'rgba(59,130,246,0.35)' : 'rgba(163,163,163,0.28)'"
                         stroke-width="1.5"
                         :stroke-dasharray="isBeamHot(b.from, b.to) ? undefined : '4 4'"
                         class="transition-opacity duration-200"
@@ -499,31 +499,31 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                   :class="[
                     FUNNEL_STAGES[id].oldWidth,
                     activeStage === id
-                      ? '-translate-y-0.5 border-rose-400 bg-rose-950/55 shadow-[0_0_24px_-6px_rgba(244,63,94,0.45)]'
+                      ? '-translate-y-0.5 border-rose-500 bg-rose-50 shadow-[0_0_24px_-6px_rgba(244,63,94,0.25)] dark:border-rose-400 dark:bg-rose-950/55 dark:shadow-[0_0_24px_-6px_rgba(244,63,94,0.45)]'
                       : activeStage !== null
-                        ? 'border-white/10 bg-neutral-900/50 opacity-40'
-                        : 'border-white/15 bg-neutral-900/85 hover:border-rose-400/50'
+                        ? 'border-neutral-200 bg-white/60 opacity-45 dark:border-white/10 dark:bg-neutral-900/50 dark:opacity-40'
+                        : 'border-neutral-200 bg-white hover:border-rose-400/60 dark:border-white/15 dark:bg-neutral-900/85 dark:hover:border-rose-400/50'
                   ]"
                   @mouseenter="activeStage = id"
                   @focus="activeStage = id"
                   @click="activeStage = id"
                 >
                   <div class="flex items-center justify-between gap-2">
-                    <span class="inline-flex items-center gap-1.5 font-mono text-[11px] font-semibold text-rose-300">
+                    <span class="inline-flex items-center gap-1.5 font-mono text-[11px] font-semibold text-rose-600 dark:text-rose-300">
                       <UIcon
                         name="i-lucide-x"
-                        class="size-3.5 shrink-0 text-rose-400"
+                        class="size-3.5 shrink-0 text-rose-500 dark:text-rose-400"
                       />
                       {{ FUNNEL_STAGES[id].step }}
                     </span>
-                    <span class="rounded border border-rose-400/30 bg-rose-500/15 px-1.5 py-0.5 font-mono text-[10px] font-semibold text-rose-200">
+                    <span class="rounded border border-rose-500/30 bg-rose-500/10 px-1.5 py-0.5 font-mono text-[10px] font-semibold text-rose-700 dark:border-rose-400/30 dark:bg-rose-500/15 dark:text-rose-200">
                       {{ FUNNEL_STAGES[id].oldBadge }}
                     </span>
                   </div>
-                  <p class="text-sm font-semibold text-white">
+                  <p class="text-sm font-semibold text-neutral-900 dark:text-white">
                     {{ FUNNEL_STAGES[id].oldTitle }}
                   </p>
-                  <p class="font-mono text-[11px] text-neutral-300">
+                  <p class="font-mono text-[11px] text-neutral-600 dark:text-neutral-300">
                     {{ FUNNEL_STAGES[id].oldSub }}
                   </p>
                 </button>
@@ -531,20 +531,20 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
             </div>
 
             <!-- New Way -->
-            <div class="flex flex-col rounded-xl border border-blue-400/30 bg-neutral-900/60 p-4">
-              <div class="mb-4 flex items-center justify-between gap-2 border-b border-white/10 pb-3">
+            <div class="flex flex-col rounded-xl border border-blue-500/25 bg-blue-50/50 p-4 dark:border-blue-400/30 dark:bg-neutral-900/60">
+              <div class="mb-4 flex items-center justify-between gap-2 border-b border-neutral-200 pb-3 dark:border-white/10">
                 <div class="flex items-center gap-2">
-                  <span class="flex size-6 items-center justify-center rounded-full border border-blue-400/40 bg-blue-500/20 text-blue-300">
+                  <span class="flex size-6 items-center justify-center rounded-full border border-blue-500/30 bg-blue-500/15 text-blue-600 dark:border-blue-400/40 dark:bg-blue-500/20 dark:text-blue-300">
                     <UIcon
                       name="i-lucide-check"
                       class="size-3.5"
                     />
                   </span>
-                  <span class="text-sm font-semibold text-white">
+                  <span class="text-sm font-semibold text-neutral-900 dark:text-white">
                     New Way · AI Sales Demo Agent
                   </span>
                 </div>
-                <span class="rounded-full border border-blue-400/30 bg-blue-500/15 px-2.5 py-0.5 font-mono text-[10px] font-semibold text-blue-200 uppercase">
+                <span class="rounded-full border border-blue-500/30 bg-blue-500/10 px-2.5 py-0.5 font-mono text-[10px] font-semibold text-blue-700 uppercase dark:border-blue-400/30 dark:bg-blue-500/15 dark:text-blue-200">
                   Proven Enterprise Pattern
                 </span>
               </div>
@@ -574,7 +574,7 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                       <path
                         :d="d"
                         fill="none"
-                        :stroke="isBeamHot(b.from, b.to) ? 'rgba(255,255,255,0.4)' : 'rgba(163,163,163,0.22)'"
+                        :stroke="isBeamHot(b.from, b.to) ? 'rgba(59,130,246,0.35)' : 'rgba(163,163,163,0.28)'"
                         stroke-width="1.5"
                         :stroke-dasharray="isBeamHot(b.from, b.to) ? undefined : '4 4'"
                         class="transition-opacity duration-200"
@@ -604,31 +604,31 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                   :class="[
                     FUNNEL_STAGES[id].newWidth,
                     activeStage === id
-                      ? '-translate-y-0.5 border-blue-400 bg-blue-950/55 shadow-[0_0_24px_-6px_rgba(59,130,246,0.45)]'
+                      ? '-translate-y-0.5 border-blue-500 bg-blue-50 shadow-[0_0_24px_-6px_rgba(59,130,246,0.25)] dark:border-blue-400 dark:bg-blue-950/55 dark:shadow-[0_0_24px_-6px_rgba(59,130,246,0.45)]'
                       : activeStage !== null
-                        ? 'border-white/10 bg-neutral-900/50 opacity-40'
-                        : 'border-white/15 bg-neutral-900/85 hover:border-blue-400/50'
+                        ? 'border-neutral-200 bg-white/60 opacity-45 dark:border-white/10 dark:bg-neutral-900/50 dark:opacity-40'
+                        : 'border-neutral-200 bg-white hover:border-blue-400/60 dark:border-white/15 dark:bg-neutral-900/85 dark:hover:border-blue-400/50'
                   ]"
                   @mouseenter="activeStage = id"
                   @focus="activeStage = id"
                   @click="activeStage = id"
                 >
                   <div class="flex items-center justify-between gap-2">
-                    <span class="inline-flex items-center gap-1.5 font-mono text-[11px] font-semibold text-blue-300">
+                    <span class="inline-flex items-center gap-1.5 font-mono text-[11px] font-semibold text-blue-600 dark:text-blue-300">
                       <UIcon
                         name="i-lucide-check"
-                        class="size-3.5 shrink-0 text-blue-400"
+                        class="size-3.5 shrink-0 text-blue-500 dark:text-blue-400"
                       />
                       {{ FUNNEL_STAGES[id].step }}
                     </span>
-                    <span class="rounded border border-blue-400/30 bg-blue-500/15 px-1.5 py-0.5 font-mono text-[10px] font-semibold text-blue-200">
+                    <span class="rounded border border-blue-500/30 bg-blue-500/10 px-1.5 py-0.5 font-mono text-[10px] font-semibold text-blue-700 dark:border-blue-400/30 dark:bg-blue-500/15 dark:text-blue-200">
                       {{ FUNNEL_STAGES[id].newBadge }}
                     </span>
                   </div>
-                  <p class="text-sm font-semibold text-white">
+                  <p class="text-sm font-semibold text-neutral-900 dark:text-white">
                     {{ FUNNEL_STAGES[id].newTitle }}
                   </p>
-                  <p class="font-mono text-[11px] text-neutral-300">
+                  <p class="font-mono text-[11px] text-neutral-600 dark:text-neutral-300">
                     {{ FUNNEL_STAGES[id].newSub }}
                   </p>
                 </button>
@@ -636,8 +636,8 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
             </div>
           </div>
 
-          <div class="mt-5 rounded-xl border border-blue-400/25 bg-neutral-900/80 px-4 py-3 text-xs leading-relaxed text-neutral-300">
-            <strong class="text-white">
+          <div class="mt-5 rounded-xl border border-blue-500/20 bg-neutral-50 px-4 py-3 text-xs leading-relaxed text-neutral-600 dark:border-blue-400/25 dark:bg-neutral-900/80 dark:text-neutral-300">
+            <strong class="text-neutral-900 dark:text-white">
               {{ funnelInfo ? `${funnelInfo.step} Comparison: ` : '20-Second Takeaway: ' }}
             </strong>
             <span>
@@ -651,18 +651,18 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
     <!-- Section 02: System Architecture -->
     <section
       id="architecture"
-      class="relative z-10 scroll-mt-6 overflow-hidden border-t border-white/10 py-16"
+      class="relative z-10 scroll-mt-6 overflow-hidden border-t border-neutral-200 py-16 dark:border-white/10"
     >
       <div class="relative z-10 mx-auto w-full max-w-6xl px-6">
         <div class="flex flex-wrap items-end justify-between gap-4">
           <div class="space-y-1.5">
-            <p class="font-mono text-xs font-semibold tracking-wider text-blue-400 uppercase">
+            <p class="font-mono text-xs font-semibold tracking-wider text-blue-600 uppercase dark:text-blue-400">
               02 · System Architecture
             </p>
-            <h2 class="text-2xl font-bold tracking-tight text-white">
+            <h2 class="text-2xl font-bold tracking-tight text-neutral-900 dark:text-white">
               How the AI Sales Demo Agent works
             </h2>
-            <p class="max-w-2xl text-sm text-neutral-300">
+            <p class="max-w-2xl text-sm text-neutral-600 dark:text-neutral-300">
               Hover or click any component across the Client, Internal Server, and External Cloud Services tiers to trace live connections.
             </p>
           </div>
@@ -674,11 +674,11 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
             variant="outline"
             icon="i-simple-icons-github"
             label="Explore Source"
-            class="rounded-full border-white/20 text-white hover:bg-white/10"
+            class="rounded-full"
           />
         </div>
 
-        <div class="mt-8 overflow-hidden rounded-2xl border border-blue-400/20 bg-neutral-950/80 p-5 text-white shadow-xl sm:p-7">
+        <div class="mt-8 overflow-hidden rounded-2xl border border-blue-500/20 bg-white/85 p-5 text-neutral-900 shadow-xl backdrop-blur-sm sm:p-7 dark:border-blue-400/20 dark:bg-neutral-950/80 dark:text-white">
           <div
             ref="archCanvasRef"
             class="relative flex flex-col gap-7"
@@ -695,7 +695,7 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                 <path
                   :d="c.d"
                   fill="none"
-                  :stroke="isEdgeHighlighted(c.from, c.to) ? 'rgba(255,255,255,0.45)' : 'rgba(163,163,163,0.24)'"
+                  :stroke="isEdgeHighlighted(c.from, c.to) ? 'rgba(59,130,246,0.4)' : 'rgba(163,163,163,0.28)'"
                   stroke-width="1.5"
                   :stroke-dasharray="isEdgeHighlighted(c.from, c.to) ? undefined : '4 4'"
                   class="transition-opacity duration-200"
@@ -716,13 +716,13 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
             </svg>
 
             <!-- Tier 1: Client -->
-            <div class="relative z-20 rounded-xl border border-white/15 bg-neutral-950/55 p-4">
+            <div class="relative z-20 rounded-xl border border-neutral-200 bg-neutral-50/70 p-4 dark:border-white/15 dark:bg-neutral-950/55">
               <div class="mb-3 flex items-center justify-between">
-                <span class="inline-flex items-center gap-2 font-mono text-xs font-semibold tracking-wider text-blue-300 uppercase">
-                  <span class="size-2 rounded-full bg-blue-400" />
+                <span class="inline-flex items-center gap-2 font-mono text-xs font-semibold tracking-wider text-blue-600 uppercase dark:text-blue-300">
+                  <span class="size-2 rounded-full bg-blue-500 dark:bg-blue-400" />
                   Client
                 </span>
-                <span class="font-mono text-[11px] text-neutral-400">
+                <span class="font-mono text-[11px] text-neutral-500 dark:text-neutral-400">
                   Visitor Browser · React 19 + Web Audio
                 </span>
               </div>
@@ -733,18 +733,18 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                   :ref="(el) => { archNodeRefs[node.id] = el as HTMLButtonElement | null }"
                   type="button"
                   class="flex flex-col gap-2 rounded-xl border p-3.5 text-left transition-all duration-200"
-                  :class="nodeStateClass(node.id, 'border-blue-400 bg-blue-950/50')"
+                  :class="nodeStateClass(node.id, 'border-blue-500 bg-blue-50 dark:border-blue-400 dark:bg-blue-950/50')"
                   @mouseenter="activeNode = node.id"
                   @focus="activeNode = node.id"
                   @click="activeNode = node.id"
                 >
                   <div class="flex items-center justify-between gap-2">
-                    <span class="text-sm font-semibold text-white">{{ node.title }}</span>
-                    <span class="rounded bg-white/10 px-2 py-0.5 font-mono text-[11px] text-blue-300">
+                    <span class="text-sm font-semibold text-neutral-900 dark:text-white">{{ node.title }}</span>
+                    <span class="rounded bg-neutral-100 px-2 py-0.5 font-mono text-[11px] text-blue-700 dark:bg-white/10 dark:text-blue-300">
                       {{ node.badge }}
                     </span>
                   </div>
-                  <p class="text-xs text-neutral-300">
+                  <p class="text-xs text-neutral-600 dark:text-neutral-300">
                     {{ node.desc }}
                   </p>
                 </button>
@@ -752,13 +752,13 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
             </div>
 
             <!-- Tier 2: Internal Server -->
-            <div class="relative z-20 rounded-xl border border-white/15 bg-neutral-950/55 p-4">
+            <div class="relative z-20 rounded-xl border border-neutral-200 bg-neutral-50/70 p-4 dark:border-white/15 dark:bg-neutral-950/55">
               <div class="mb-3 flex items-center justify-between">
-                <span class="inline-flex items-center gap-2 font-mono text-xs font-semibold tracking-wider text-blue-300 uppercase">
-                  <span class="size-2 rounded-full bg-blue-400" />
+                <span class="inline-flex items-center gap-2 font-mono text-xs font-semibold tracking-wider text-blue-600 uppercase dark:text-blue-300">
+                  <span class="size-2 rounded-full bg-blue-500 dark:bg-blue-400" />
                   Internal Server
                 </span>
-                <span class="font-mono text-[11px] text-neutral-400">
+                <span class="font-mono text-[11px] text-neutral-500 dark:text-neutral-400">
                   Next.js 16 App Router API Services
                 </span>
               </div>
@@ -769,18 +769,18 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                   :ref="(el) => { archNodeRefs[node.id] = el as HTMLButtonElement | null }"
                   type="button"
                   class="flex flex-col gap-2 rounded-xl border p-3.5 text-left transition-all duration-200"
-                  :class="nodeStateClass(node.id, 'border-blue-400 bg-blue-950/45')"
+                  :class="nodeStateClass(node.id, 'border-blue-500 bg-blue-50 dark:border-blue-400 dark:bg-blue-950/45')"
                   @mouseenter="activeNode = node.id"
                   @focus="activeNode = node.id"
                   @click="activeNode = node.id"
                 >
                   <div class="flex items-center justify-between gap-2">
-                    <span class="text-sm font-semibold text-white">{{ node.title }}</span>
-                    <span class="rounded bg-white/10 px-2 py-0.5 font-mono text-[11px] text-blue-300">
+                    <span class="text-sm font-semibold text-neutral-900 dark:text-white">{{ node.title }}</span>
+                    <span class="rounded bg-neutral-100 px-2 py-0.5 font-mono text-[11px] text-blue-700 dark:bg-white/10 dark:text-blue-300">
                       {{ node.badge }}
                     </span>
                   </div>
-                  <p class="text-xs text-neutral-300">
+                  <p class="text-xs text-neutral-600 dark:text-neutral-300">
                     {{ node.desc }}
                   </p>
                 </button>
@@ -788,13 +788,13 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
             </div>
 
             <!-- Tier 3: External Cloud Services -->
-            <div class="relative z-20 rounded-xl border border-white/15 bg-neutral-950/55 p-4">
+            <div class="relative z-20 rounded-xl border border-neutral-200 bg-neutral-50/70 p-4 dark:border-white/15 dark:bg-neutral-950/55">
               <div class="mb-3 flex items-center justify-between">
-                <span class="inline-flex items-center gap-2 font-mono text-xs font-semibold tracking-wider text-purple-300 uppercase">
-                  <span class="size-2 rounded-full bg-purple-400" />
+                <span class="inline-flex items-center gap-2 font-mono text-xs font-semibold tracking-wider text-purple-600 uppercase dark:text-purple-300">
+                  <span class="size-2 rounded-full bg-purple-500 dark:bg-purple-400" />
                   External Cloud Services
                 </span>
-                <span className="font-mono text-[11px] text-neutral-400">
+                <span class="font-mono text-[11px] text-neutral-500 dark:text-neutral-400">
                   Conversational AI &amp; Cloud Chromium
                 </span>
               </div>
@@ -803,15 +803,15 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                   :ref="(el) => { archNodeRefs.elevenlabs = el as HTMLButtonElement | null }"
                   type="button"
                   class="flex flex-col gap-2.5 rounded-xl border p-3.5 text-left transition-all duration-200"
-                  :class="nodeStateClass('elevenlabs', 'border-purple-400 bg-purple-950/45')"
+                  :class="nodeStateClass('elevenlabs', 'border-purple-500 bg-purple-50 dark:border-purple-400 dark:bg-purple-950/45')"
                   @mouseenter="activeNode = 'elevenlabs'"
                   @focus="activeNode = 'elevenlabs'"
                   @click="activeNode = 'elevenlabs'"
                 >
                   <div class="flex items-center justify-between gap-2">
-                    <span class="text-sm font-semibold text-white">ElevenLabs</span>
+                    <span class="text-sm font-semibold text-neutral-900 dark:text-white">ElevenLabs</span>
                     <span
-                      class="inline-flex items-center gap-1.5 rounded bg-white/10 px-2 py-0.5 font-mono text-[11px] text-purple-300"
+                      class="inline-flex items-center gap-1.5 rounded bg-neutral-100 px-2 py-0.5 font-mono text-[11px] text-purple-700 dark:bg-white/10 dark:text-purple-300"
                       :class="{ 'demo-speaking': activeNode === 'elevenlabs' }"
                     >
                       <span
@@ -823,17 +823,17 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                       ConvAI
                     </span>
                   </div>
-                  <div class="rounded-lg border border-white/10 bg-neutral-950/75 p-2.5">
-                    <div class="flex items-center justify-between text-xs font-semibold text-white">
+                  <div class="rounded-lg border border-neutral-200 bg-neutral-50 p-2.5 dark:border-white/10 dark:bg-neutral-950/75">
+                    <div class="flex items-center justify-between text-xs font-semibold text-neutral-900 dark:text-white">
                       <span>Demo Agent (&ldquo;Alex&rdquo;)</span>
-                      <span class="font-mono text-[11px] text-purple-300">Flash v2.5</span>
+                      <span class="font-mono text-[11px] text-purple-600 dark:text-purple-300">Flash v2.5</span>
                     </div>
                     <div class="mt-2 grid grid-cols-2 gap-1.5 text-center font-mono text-[11px]">
                       <span
                         v-for="chip in ELEVENLABS_CHIPS"
                         :key="chip"
                         class="rounded border px-2 py-1 transition-colors"
-                        :class="activeNode === 'elevenlabs' ? 'border-purple-400 bg-purple-500/30 text-white' : 'border-purple-400/25 bg-purple-500/10 text-purple-200'"
+                        :class="activeNode === 'elevenlabs' ? 'border-purple-500 bg-purple-500/15 text-purple-900 dark:border-purple-400 dark:bg-purple-500/30 dark:text-white' : 'border-purple-500/25 bg-purple-500/10 text-purple-700 dark:border-purple-400/25 dark:text-purple-200'"
                       >
                         {{ chip }}
                       </span>
@@ -845,20 +845,20 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                   :ref="(el) => { archNodeRefs.browserbase = el as HTMLButtonElement | null }"
                   type="button"
                   class="flex flex-col gap-2.5 rounded-xl border p-3.5 text-left transition-all duration-200"
-                  :class="nodeStateClass('browserbase', 'border-blue-400 bg-blue-950/50')"
+                  :class="nodeStateClass('browserbase', 'border-blue-500 bg-blue-50 dark:border-blue-400 dark:bg-blue-950/50')"
                   @mouseenter="activeNode = 'browserbase'"
                   @focus="activeNode = 'browserbase'"
                   @click="activeNode = 'browserbase'"
                 >
                   <div class="flex items-center justify-between gap-2">
-                    <span class="text-sm font-semibold text-white">BrowserBase</span>
-                    <span class="rounded bg-white/10 px-2 py-0.5 font-mono text-[11px] text-blue-300">
+                    <span class="text-sm font-semibold text-neutral-900 dark:text-white">BrowserBase</span>
+                    <span class="rounded bg-neutral-100 px-2 py-0.5 font-mono text-[11px] text-blue-700 dark:bg-white/10 dark:text-blue-300">
                       Chromium CDP
                     </span>
                   </div>
-                  <div class="space-y-2 rounded-lg border border-white/10 bg-neutral-950/75 p-2.5">
+                  <div class="space-y-2 rounded-lg border border-neutral-200 bg-neutral-50 p-2.5 dark:border-white/10 dark:bg-neutral-950/75">
                     <div class="flex items-center justify-between">
-                      <span class="text-xs font-semibold text-white">google.com</span>
+                      <span class="text-xs font-semibold text-neutral-900 dark:text-white">google.com</span>
                       <svg
                         width="14"
                         height="14"
@@ -876,16 +876,16 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
                       </svg>
                     </div>
                     <div class="flex flex-wrap gap-1 font-mono text-[11px]">
-                      <span class="rounded bg-white/10 px-1.5 py-0.5 text-neutral-300">1280x800</span>
+                      <span class="rounded bg-neutral-200/70 px-1.5 py-0.5 text-neutral-700 dark:bg-white/10 dark:text-neutral-300">1280x800</span>
                       <span
                         class="rounded px-1.5 py-0.5 transition-colors"
-                        :class="activeNode === 'browserbase' ? 'bg-blue-500/35 text-white' : 'bg-white/10 text-neutral-300'"
+                        :class="activeNode === 'browserbase' ? 'bg-blue-500/20 text-blue-900 dark:bg-blue-500/35 dark:text-white' : 'bg-neutral-200/70 text-neutral-700 dark:bg-white/10 dark:text-neutral-300'"
                       >
                         SERP Titles
                       </span>
-                      <span class="rounded bg-white/10 px-1.5 py-0.5 text-neutral-300">Snippets</span>
+                      <span class="rounded bg-neutral-200/70 px-1.5 py-0.5 text-neutral-700 dark:bg-white/10 dark:text-neutral-300">Snippets</span>
                     </div>
-                    <p class="font-mono text-[11px] text-blue-300">
+                    <p class="font-mono text-[11px] text-blue-600 dark:text-blue-300">
                       searchGoogle() · live SERP scraping → LLM
                     </p>
                   </div>
@@ -894,23 +894,23 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
             </div>
           </div>
 
-          <div class="mt-5 flex flex-col gap-2 rounded-xl border border-blue-400/25 bg-neutral-900/80 px-4 py-3 text-xs text-neutral-300">
+          <div class="mt-5 flex flex-col gap-2 rounded-xl border border-blue-500/20 bg-neutral-50 px-4 py-3 text-xs text-neutral-600 dark:border-blue-400/25 dark:bg-neutral-900/80 dark:text-neutral-300">
             <div class="flex flex-wrap items-center gap-1.5 font-mono text-[11px]">
-              <span class="text-blue-300">LLM ↔ BrowserBase Loop:</span>
-              <span class="rounded bg-purple-500/20 px-2 py-0.5 text-purple-200">
+              <span class="text-blue-600 dark:text-blue-300">LLM ↔ BrowserBase Loop:</span>
+              <span class="rounded bg-purple-500/15 px-2 py-0.5 text-purple-700 dark:bg-purple-500/20 dark:text-purple-200">
                 1. ElevenLabs LLM calls searchGoogle()
               </span>
-              <span class="text-neutral-500">→</span>
-              <span class="rounded bg-blue-500/20 px-2 py-0.5 text-blue-200">
+              <span class="text-neutral-400 dark:text-neutral-500">→</span>
+              <span class="rounded bg-blue-500/15 px-2 py-0.5 text-blue-700 dark:bg-blue-500/20 dark:text-blue-200">
                 2. AI Chat Panel bridges to Browser Service
               </span>
-              <span class="text-neutral-500">→</span>
-              <span class="rounded bg-blue-500/20 px-2 py-0.5 text-blue-200">
+              <span class="text-neutral-400 dark:text-neutral-500">→</span>
+              <span class="rounded bg-blue-500/15 px-2 py-0.5 text-blue-700 dark:bg-blue-500/20 dark:text-blue-200">
                 3. BrowserBase scrapes SERP titles &amp; snippets for LLM
               </span>
             </div>
             <div class="min-h-[2.5rem] leading-relaxed">
-              <strong class="text-white">
+              <strong class="text-neutral-900 dark:text-white">
                 {{ archInfo ? `${archInfo.title}: ` : 'All 3 Tiers Connected: ' }}
               </strong>
               <span>
@@ -924,8 +924,16 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
   </div>
 </template>
 
-<style scoped>
+<style>
 .demo-hero-surface {
+  background:
+    radial-gradient(1100px circle at 82% 16%, rgba(59, 130, 246, 0.12), transparent 55%),
+    radial-gradient(800px circle at 16% 52%, rgba(96, 165, 250, 0.08), transparent 55%),
+    radial-gradient(900px circle at 78% 88%, rgba(37, 99, 235, 0.09), transparent 55%),
+    linear-gradient(180deg, #fafafa 0%, #f5f5f5 100%);
+}
+
+.dark .demo-hero-surface {
   background:
     radial-gradient(1100px circle at 82% 16%, rgba(59, 130, 246, 0.16), transparent 55%),
     radial-gradient(800px circle at 16% 52%, rgba(96, 165, 250, 0.1), transparent 55%),
@@ -938,10 +946,16 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    linear-gradient(to right, rgba(0, 0, 0, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.045) 1px, transparent 1px);
   background-size: 48px 48px;
   pointer-events: none;
+}
+
+.dark .demo-hero-surface::before {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
 }
 
 @keyframes demo-wave {

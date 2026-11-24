@@ -26,6 +26,10 @@ When interacting with files, prefer terminal commands over editing files directl
 
 Optimize for Cursor performance by consolidating related code into fewer files of up to about 500 lines each. Prefer one well-sized file over many tiny (~100-line) files for the same concern. Split only when a file would meaningfully exceed ~500 lines or when separation of concerns clearly requires it.
 
+## Support light and dark mode
+
+All pages and components must work gracefully in both light and dark mode. Prefer Nuxt UI semantic tokens (e.g., `bg-default`, `text-default`, `border-default`) or pair explicit colors with `dark:` variants (use unscoped `<style>` with `.dark ...` rather than `:global(.dark)` in scoped CSS). Avoid hardcoded `text-white`, `border-white/*`, or dark-only backgrounds without light-mode counterparts, and verify button variants like `UButton` `outline` don't clash with forced text colors.
+
 ## Commit messages
 
 Prefix with a [gitmoji](https://gitmoji.dev/) shortcode, then a short message. Example: `:sparkles: add project showcase section`
