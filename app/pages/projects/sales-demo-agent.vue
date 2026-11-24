@@ -28,7 +28,6 @@ interface ArchCurve {
   d: string
 }
 
-const LOOM_URL = 'https://www.loom.com/share/ae2f513e997e442883a935aadbd153a4'
 const GITHUB_URL = 'https://github.com/kevinlogan94/sales-demo-agent'
 
 useSeoMeta({
@@ -374,14 +373,6 @@ function nodeStateClass(id: ArchNodeId, focusTone: string) {
         </p>
 
         <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <UButton
-            :to="LOOM_URL"
-            target="_blank"
-            size="lg"
-            icon="i-lucide-play"
-            label="Watch Loom Demo"
-            class="rounded-full bg-blue-600 text-white hover:bg-blue-500"
-          />
           <UButton
             :to="GITHUB_URL"
             target="_blank"
