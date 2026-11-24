@@ -32,4 +32,4 @@ All pages and components must work gracefully in both light and dark mode. Prefe
 
 ## Commit messages
 
-Prefix with a [gitmoji](https://gitmoji.dev/) shortcode, then a short message. Example: `:sparkles: add project showcase section`
+Use [Conventional Commits](https://www.conventionalcommits.org/) (`type: short description`, or `type(scope): short description`). Example: `feat: add project showcase section` or `fix(sales-demo-agent): support light and dark mode`
